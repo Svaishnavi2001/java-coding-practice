@@ -1,14 +1,12 @@
-package com;
+package com.labs;
 import java.util.Scanner;
-public class Lab4 {
+public class Lab1 {
     public static void main(String[] args) {
+
         Scanner scan=new Scanner(System.in);
         int n=scan.nextInt();
-        printFactors(n);
-    }
-    private static void printFactors(int n) {
         for(int i=1;i<=n;i++){
-            if(n%i==0){
+            if(i%2==0){
                 System.out.println(i);
             }
         }

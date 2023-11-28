@@ -1,4 +1,4 @@
-package com.programs;
+package interview.programs;
 
 public class FindDuplicateStrings {
 }
