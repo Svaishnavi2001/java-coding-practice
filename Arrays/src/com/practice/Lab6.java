@@ -1,4 +1,4 @@
-package com.assingment;
+package com.practice;
 import java.util.Scanner;
 public class Lab6 {
     public static void main(String[] args) {
