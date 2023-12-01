@@ -1,5 +1,6 @@
 package com.class1;
 import java.util.Scanner;
+// Print the factors of a given number.
 public class Lab4 {
     public static void main(String[] args) {
         Scanner scan=new Scanner(System.in);

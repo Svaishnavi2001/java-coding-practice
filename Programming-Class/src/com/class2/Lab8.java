@@ -1,21 +1,20 @@
 package com.class2;
 import java.util.Scanner;
-// Print 1st n prime numbers.
-public class Lab7 {
+// Multiples of a given number.
+public class Lab8 {
     public static void main(String[] args) {
         Scanner scan=new Scanner(System.in);
         int n=scan.nextInt();
-        printPrimeNums(n);
+        int x=scan.nextInt();
+        multipleOfNum(n,x);
     }
 
-    private static void printPrimeNums(int n) {
-        int count=0;
-        for(int i=1; count<n;i++){
-            if(n%i==0){
+    private static void multipleOfNum(int n,int x) {
+        for(int i=1;i<x;i++){
+            if(i%n==0){
                 System.out.println(i);
-                count++;
-
             }
+
         }
     }
 }

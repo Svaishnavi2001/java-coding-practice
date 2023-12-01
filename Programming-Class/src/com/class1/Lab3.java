@@ -3,6 +3,9 @@ import java.util.Scanner;
 /* Print the following:
    5x1=5
    5x2=10
+   5x3=15
+   ....
+   5x10=50
 */
 public class Lab3 {
     public static void main(String[] args) {
