@@ -1,20 +1,20 @@
-package com.practice;
+package com.class1;
 import java.util.Scanner;
 public class Lab2 {
     public static void main(String[] args) {
         int[]  a=new int[5];
         Scanner scan=new Scanner(System.in);
 
-        System.out.println("Enter the age of 1st Student");
+        System.out.println("Enter the age of 1st student");
         a[0]=scan.nextInt();
 
-        System.out.println("Enter the age of 2nd Student");
+        System.out.println("Enter the age of 2nd student");
         a[1]=scan.nextInt();
 
-        System.out.println("Enter the age of 3rd Student");
+        System.out.println("Enter the age of 3rd student");
         a[2]=scan.nextInt();
 
-        System.out.println("Enter the age of 4th Student ");
+        System.out.println("Enter the age of 4th student ");
         a[3]=scan.nextInt();
 
         System.out.println("Enter the age of 5th student");

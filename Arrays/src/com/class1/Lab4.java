@@ -1,4 +1,4 @@
-package com.practice;
+package com.class1;
 import java.util.Scanner;
 public class Lab4 {
     public static void main(String[] args) {
@@ -6,7 +6,7 @@ public class Lab4 {
         Scanner scan=new Scanner(System.in);
 
         for(int i=0;i<=4;i++){
-            System.out.println("Enter the marriage Status");
+            System.out.println("Enter the marriage status");
             a[i]=scan.nextBoolean();
         }
         System.out.println("The marriage status are:");
