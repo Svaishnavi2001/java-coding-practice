@@ -1,4 +1,16 @@
 package com.Class2;
+/*
+    *
+   ***
+  *****
+ *******
+*********
+*********
+ *******
+  *****
+   ***
+    *
+ */
 public class Pat10 {
     public static void main(String[] args) {
         for(int i=1;i<=5;i++){
