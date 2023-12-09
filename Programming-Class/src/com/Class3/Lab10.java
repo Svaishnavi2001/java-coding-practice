@@ -1,4 +1,4 @@
-package com.class3;
+package com.Class3;
 import java.util.Scanner;
 // Common factors of given 2 numbers
 public class Lab10 {

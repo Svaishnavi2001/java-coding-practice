@@ -1,4 +1,4 @@
-package com.class1;
+package com.Class1;
 import java.util.Scanner;
 // *Even numbers from 1 to n.
 public class Lab1 {

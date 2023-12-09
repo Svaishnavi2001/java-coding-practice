@@ -1,4 +1,4 @@
-package com.class1;
+package com.Class1;
 import java.util.Scanner;
 // Print the count of factors of a given number.
 public class Lab5 {

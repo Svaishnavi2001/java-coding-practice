@@ -1,4 +1,4 @@
-package com.class2;
+package com.Class2;
 import java.util.Scanner;
 // Whether the given number is Prime or not.
 public class Lab6a {

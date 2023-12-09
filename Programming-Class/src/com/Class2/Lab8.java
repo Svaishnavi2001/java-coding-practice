@@ -1,4 +1,4 @@
-package com.class2;
+package com.Class2;
 import java.util.Scanner;
 // Multiples of a given number.
 public class Lab8 {

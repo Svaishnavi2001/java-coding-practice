@@ -1,4 +1,4 @@
-package com.class2;
+package com.Class2;
 import java.util.Scanner;
 // Whether the given number is Prime or not.
 public class Lab6b {
@@ -11,7 +11,7 @@ public class Lab6b {
     }
     private static String countFactors(int n){
         int count=0;
-        if(count==1){
+        if(n==1){
             return "Not Prime";
         }
         for(int i=2;i<=n-1;i++) {

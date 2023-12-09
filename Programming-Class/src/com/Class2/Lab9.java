@@ -1,4 +1,4 @@
-package com.class2;
+package com.Class2;
 import java.util.Scanner;
 // Common multiples of given 2 numbers.
 public class Lab9 {

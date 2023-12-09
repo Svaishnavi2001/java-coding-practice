@@ -1,4 +1,4 @@
-package com.class1;
+package com.Class1;
 import java.util.Scanner;
 /* Print the following:
    5x1=5
