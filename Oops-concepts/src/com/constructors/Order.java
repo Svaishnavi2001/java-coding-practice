@@ -1,6 +1,7 @@
 package com.constructors;
 
 public class Order {
+
     int orderId;
     int item;
     float amount;
@@ -14,33 +15,40 @@ public class Order {
         this.charges=charges;
         this.address=address;
     }
+
     public int orderId(){
        return orderId;
     }
+
     public void setOrderId(int orderId){
         this.orderId=orderId;
     }
+
     public int item(){
         return item;
     }
+
     public void setItem(int item){
         this.item=item;
     }
+
     public float amount(){
         return amount;
     }
+
     public void setAmount(float amount){
         this.amount=amount;
     }
+
     public float charges(){
-        return chargee
+        return charges;
     }
+
     public String address(){
         return address;
     }
+
     public void setAddress(String address){
 
     }
-
-
 }

@@ -1,0 +1,33 @@
+Sure, here are some basic questions related to constructors in Java that are commonly asked to freshers in interviews:
+
+1. **What is a constructor in Java?**
+   - A constructor in Java is a special method that is used to initialize objects. It has the same name as the class and is called when an object of the class is created.
+
+2. **What is the purpose of a constructor?**
+   - The main purpose of a constructor is to initialize the state of an object. It is called automatically when an object is created and can be used to perform tasks such as initializing instance variables, allocating resources, or setting up the object's initial state.
+
+3. **Can a class have multiple constructors?**
+   - Yes, a class in Java can have multiple constructors. This is known as constructor overloading. Each constructor must have a unique parameter list.
+
+4. **What is the default constructor?**
+   - If a class does not explicitly define any constructors, Java provides a default constructor. The default constructor has no parameters and initializes instance variables to their default values (e.g., 0 for numeric types, null for reference types).
+
+5. **Can a constructor have a return type?**
+   - No, a constructor does not have a return type, not even `void`. The job of a constructor is to initialize the object, and it is automatically called when an object is created.
+
+6. **What is the difference between a constructor and a method?**
+   - Constructors are used to initialize objects and have the same name as the class. They are called automatically when an object is created. Methods, on the other hand, are functions that perform some action and are called explicitly by name.
+
+7. **What is the purpose of the `this` keyword in a constructor?**
+   - The `this` keyword is used in a constructor to refer to the current instance of the class. It is often used to disambiguate between instance variables and parameters with the same name.
+
+8. **How is constructor overloading achieved?**
+   - Constructor overloading is achieved by defining multiple constructors in a class, each with a different parameter list.
+
+9. **Can a constructor be private?**
+   - Yes, a constructor can be private. When a constructor is private, it cannot be accessed or instantiated from outside the class. This is commonly used in singleton design patterns.
+
+10. **Explain the concept of a parameterized constructor.**
+    - A parameterized constructor is a constructor that takes parameters. It allows you to initialize the object with specific values at the time of creation. It's useful when you want to customize the initialization of objects.
+
+These questions cover the basics of constructors in Java and can help assess a fresher's understanding of object initialization and class instantiation.
