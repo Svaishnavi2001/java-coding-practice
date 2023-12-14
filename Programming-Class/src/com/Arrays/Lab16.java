@@ -12,8 +12,13 @@ public class Lab16 {
             }
             for(int i=0;i<ar.length;i++){
             if(i%2!=0){ // for even indexed-->(i%2==0)
+
                 System.out.print(ar[i]+" ");
             }
         }
     }
+
+
+
+
 }

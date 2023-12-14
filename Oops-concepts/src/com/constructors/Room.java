@@ -1,6 +1,6 @@
 package com.constructors;
 
- class Room {
+ public class Room {
     int noOfWindow;
     int nuOfDoors;
     String doorName;

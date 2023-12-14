@@ -10,7 +10,7 @@ public class Lab10a {
     }
     private static void commonFactors(int n1,int n2) {
         int min=0;
-        if(n1<n1){
+        if(n1<n2){
             min=n1;
         }
         else{
