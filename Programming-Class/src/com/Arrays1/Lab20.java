@@ -1,6 +1,6 @@
-package com.Arrays;
+package com.Arrays1;
 import java.util.Scanner;
-// Sum of (n-1) elements of an array.(max sum and min sum)
+// Sum of (n-1) elements of an Array.(max sum and min sum)
 public class Lab20 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);

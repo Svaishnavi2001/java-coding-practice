@@ -1,4 +1,4 @@
-package com.Arrays;
+package com.Arrays1;
 import java.util.Scanner;
 // Print odd indexed numbers from Array
 public class Lab16 {

@@ -1,4 +1,4 @@
-package com.Arrays;
+package com.Arrays1;
 import java.util.Scanner;
 // Highest element index of an array.
 public class Lab19 {
