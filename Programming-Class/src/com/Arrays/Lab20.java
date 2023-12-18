@@ -22,21 +22,21 @@ public class Lab20 {
         return max;
     }
     static int minimumElement(int[] ar) {
-         int min=Integer.MAX_VALUE;
-         for(int i=0;i<ar.length;i++){
-             if(ar[i]<min){
-                 min=ar[i];
-             }
-         }
-         return min;
+        int min=Integer.MAX_VALUE;
+        for(int i=0;i<ar.length;i++){
+            if(ar[i]<min){
+                min=ar[i];
+            }
+        }
+        return min;
     }
     private static void maxMinSum(int[] ar) {
-          int max= maximumElement(ar);
-          int min=minimumElement(ar);
-          int sum=0;
-          for(int i=0;i<ar.length;i++){
-              sum=sum+ar[i];
-          }
+        int max= maximumElement(ar);
+        int min=minimumElement(ar);
+        int sum=0;
+        for(int i=0;i<ar.length;i++){
+            sum=sum+ar[i];
+        }
         System.out.println(sum-min);
         System.out.println(sum-max);
     }

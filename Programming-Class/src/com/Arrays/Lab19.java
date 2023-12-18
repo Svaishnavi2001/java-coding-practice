@@ -21,8 +21,6 @@ public class Lab19 {
                 index = i;
             }
         }
-            System.out.println(index);
-        }
+        System.out.println(index);
     }
-
-
+}

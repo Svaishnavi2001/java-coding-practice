@@ -1,5 +1,6 @@
 package com.Arrays;
 import java.util.Scanner;
+
 public class Lab15 {
     public static void main(String[] args) {
         Scanner scan=new Scanner(System.in);

@@ -21,7 +21,6 @@ public class Lab18 {
                 max = ar[i];
             }
         }
-            System.out.println(max);
-        }
+        System.out.println(max);
     }
-
+}
