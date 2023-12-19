@@ -1,6 +1,6 @@
 package com.Arrays1;
 import java.util.Scanner;
-//  Maximum element of an array.
+// Largest element of an Array.
 public class Lab18 {
     public static void main(String[] args) {
         Scanner scan=new Scanner(System.in);
@@ -10,9 +10,9 @@ public class Lab18 {
         for(int i=0;i<ar.length;i++) {
             ar[i]=scan.nextInt();
         }
-        maxNumber(ar);
+        largestElement(ar);
     }
-    private static void maxNumber(int[] ar) {
+    private static void largestElement(int[] ar) {
 
         long max=Integer.MIN_VALUE;
         // for min value-Integer.MAX_VALUE

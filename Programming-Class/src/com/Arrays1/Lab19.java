@@ -1,6 +1,6 @@
 package com.Arrays1;
 import java.util.Scanner;
-// Highest element index of an array.
+// Highest element index of an Array.
 public class Lab19 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);

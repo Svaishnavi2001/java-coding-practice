@@ -1,6 +1,6 @@
 package com.Arrays1;
 import java.util.Scanner;
-// Product of elements of an array
+// Product of elements of an Array
 public class Lab17a {
     public static void main(String[] args) {
         Scanner scan=new Scanner(System.in);

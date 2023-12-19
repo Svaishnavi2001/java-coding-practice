@@ -1,6 +1,6 @@
 package com.Arrays1;
 import java.util.Scanner;
-// Sum of elements of an array.
+// Sum of elements of an Array.
 public class Lab17 {
     public static void main(String[] args) {
         Scanner scan=new Scanner(System.in);

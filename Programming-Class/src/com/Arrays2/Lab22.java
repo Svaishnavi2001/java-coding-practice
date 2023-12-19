@@ -1,8 +1,7 @@
-package com.Arrays1;
+package com.Arrays2;
 import java.util.Scanner;
-// 2nd largest element of an Array.
-
-public class Lab18a {
+// Maximum sum of 2 elements of an Array. (Max Sum pair)
+public class Lab22 {
     public static void main(String[] args) {
         Scanner scan=new Scanner(System.in);
         int size=scan.nextInt();
@@ -11,9 +10,18 @@ public class Lab18a {
         for(int i=0;i<ar.length;i++){
             ar[i]=scan.nextInt();
         }
-        secLargestEle(ar);
+        maxSum(ar);
     }
-    private static void secLargestEle(int[] ar) {
+    static int firstMaximumEle(int []ar){
+        int max=Integer.MIN_VALUE;
+        for(int i=0;i<ar.length;i++){
+            if(ar[i]>max){
+                max=ar[i];
+            }
+        }
+        return max;
+    }
+    static int secMaximumEle(int []ar){
         int p=Integer.MIN_VALUE;
         int vp=Integer.MIN_VALUE;
 
@@ -26,6 +34,12 @@ public class Lab18a {
                 vp=ar[i];
             }
         }
-        System.out.println( vp);
+        return vp;
+    }
+    private static void maxSum(int[] ar) {
+      int fmax=firstMaximumEle(ar);
+      int smax=secMaximumEle(ar);
+        System.out.println(fmax+smax);
+
     }
 }
