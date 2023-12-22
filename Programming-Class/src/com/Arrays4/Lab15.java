@@ -20,7 +20,8 @@ public class Lab15 {
         while (i >= 0) {
             if (ar[i] == -1) {
                 i--;
-            } else {
+            }
+            else {
                 ar[j] = ar[i];
                 j--;
                 i--;
