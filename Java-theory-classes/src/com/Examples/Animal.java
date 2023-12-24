@@ -1,8 +1,7 @@
 package com.Examples;
 
  class Animal {
-
-    void breathe(){
+     void breathe(){
         System.out.println("Animal breathe");
     }
     void eats(){
