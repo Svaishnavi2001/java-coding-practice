@@ -11,7 +11,7 @@ public class Lab7 {
         int count=0;
         for(int i=1;count<n;i++){
             if(isPrime(i)==true){
-                System.out.println(i);
+                System.out.print(i+" ");
                 count++;
             }
         }

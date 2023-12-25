@@ -10,7 +10,7 @@ public class Lab6c {
     private static void printPrimeNum(int n) {
     for(int i=1;i<=n;i++){
     if(isPrime(i)==true){
-        System.out.println(i);
+        System.out.print(i+ " ");
       }
      }
     }
