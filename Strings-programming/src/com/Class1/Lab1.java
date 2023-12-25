@@ -3,8 +3,8 @@ import java.util.Scanner;
 // Print a program to Reverse of a string
 public class Lab1 {
     public static void main(String[] args) {
-        Scanner scan=new Scanner(System.in);
-        String s=scan.next();
+        Scanner sc=new Scanner(System.in);
+        String s=sc.next();
 
         String rev=reverse(s);
         System.out.println(rev);

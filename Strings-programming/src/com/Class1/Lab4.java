@@ -3,8 +3,8 @@ import java.util.Scanner;
 // Print the words of a given string
 public class Lab4 {
     public static void main(String[] args) {
-        Scanner scan=new Scanner(System.in);
-        String s=scan.next();
+        Scanner sc=new Scanner(System.in);
+        String s=sc.next();
         printWords(s);
     }
     private static void printWords(String s) {

@@ -3,8 +3,8 @@ import java.util.Scanner;
 // Print the spaces of a given string
 public class Lab3 {
     public static void main(String[] args) {
-        Scanner scan=new Scanner(System.in);
-        String s=scan.nextLine();
+        Scanner sc=new Scanner(System.in);
+        String s=sc.nextLine();
 
         printSpaces(s);
     }

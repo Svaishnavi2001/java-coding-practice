@@ -3,8 +3,8 @@ import java.util.Scanner;
 // Check whether the  given string is Palindrome or not.
 public class Lab2 {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        String s = scan.next();
+        Scanner sc = new Scanner(System.in);
+        String s = sc.next();
 
         reverse(s);
     }
