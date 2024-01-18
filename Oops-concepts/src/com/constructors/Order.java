@@ -60,9 +60,10 @@ public class Order {
         this.address=address;
     }
 }
-public class Demo{
+class Demo{
     public static void main(String[] args) {
         Order o=new Order();
+
     }
 
 }
