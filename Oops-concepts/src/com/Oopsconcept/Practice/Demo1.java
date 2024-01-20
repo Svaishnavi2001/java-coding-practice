@@ -1,11 +1,12 @@
 package com.Oopsconcept.Practice;
 // Method Hiding concept
+
 class Parent {
-    static void disp(){
+    static void disp() {
         System.out.println("Hi");
     }
 }
-class Child extends Parent{
+class Child extends Parent {
     static void disp(){
         System.out.println("Hello");
     }
