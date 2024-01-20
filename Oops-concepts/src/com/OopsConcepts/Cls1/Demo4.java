@@ -1,5 +1,5 @@
-package com.Oopsconcept.Practice;
-// Polymorphism (Tight coupling)
+package com.OopsConcepts.Cls1;
+// Tight coupling in Polymorphism
 
 class Plane{
     void fly() {
@@ -24,7 +24,7 @@ class FighterPlane extends Plane{
         System.out.println("FighterPlane flies");
     }
 }
-public class Demo3 {
+public class Demo4 {
     public static void main(String[] args) {
         CargoPlane cp=new CargoPlane ();
         PassengerPlane pp=new PassengerPlane();

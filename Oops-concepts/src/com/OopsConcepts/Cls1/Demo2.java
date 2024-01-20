@@ -1,4 +1,4 @@
-package com.Oopsconcept.Practice;
+package com.OopsConcepts.Cls1;
 // Method Hiding concept
 
 class Parent {
@@ -11,7 +11,7 @@ class Child extends Parent {
         System.out.println("Hello");
     }
 }
-public class Demo1 {
+public class Demo2 {
     public static void main(String[] args) {
         Child.disp();
     }
