@@ -32,7 +32,7 @@ class FighterPlane1 extends Plane1 {
         System.out.println("FighterPlane carries weapons");
     }
 }
-public class Demo2 {
+public class Lab2 {
     public static void main(String[] args) {
         CargoPlane1 cp=new CargoPlane1();
         PassengerPlane1 pp=new PassengerPlane1();

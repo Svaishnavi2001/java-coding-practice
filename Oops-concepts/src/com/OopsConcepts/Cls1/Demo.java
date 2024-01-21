@@ -5,7 +5,7 @@ class Animal{
               System.out.println("Animal breathes");
        }
        void eats(){
-              System.out.println("Animal eats other animals");
+              System.out.println("Animal eats flesh");
        }
 }
 class Tiger extends Animal{

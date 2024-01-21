@@ -24,11 +24,12 @@ class FighterPlane extends Plane{
     }
 }
 class Airport{
+
     void permit(Plane ref){
         ref.fly();
     }
 }
-public class Demo1 {
+public class Lab1 {
     public static void main(String[] args) {
         CargoPlane cp=new CargoPlane();
         PassengerPlane pp=new PassengerPlane();
