@@ -1,4 +1,4 @@
-package interview.strings;
+package interview.Strings;
 //VowelsCount
 public class VowelsCount {
     public static void main(String[] args) {

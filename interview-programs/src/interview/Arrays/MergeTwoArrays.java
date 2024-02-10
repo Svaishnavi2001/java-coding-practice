@@ -1,4 +1,4 @@
-package interview.arrays;
+package interview.Arrays;
 
 public class MergeTwoArrays {
     public static void main(String[] args) {

@@ -1,6 +1,4 @@
-package interview.arrays;
-
-import java.security.spec.RSAOtherPrimeInfo;
+package interview.Arrays;
 
 public class Prg3 {
     public static void main(String[] args) {

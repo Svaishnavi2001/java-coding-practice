@@ -1,4 +1,4 @@
-package interview.arrays;
+package interview.Arrays;
 
 public class Prg4 {
     public static void main(String[] args) {
