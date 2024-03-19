@@ -1,22 +1,22 @@
 package com.Class1;
-import java.util.Scanner;
-// Check whether the  given string is Palindrome or not.
+// count consonants
 public class Lab2 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        String s = sc.next();
 
-        reverse(s);
-    }
-    private static void reverse(String s) {
-        String rev = "";
-        for (int i = s.length() - 1; i >= 0; i--) {
-            rev = rev + s.charAt(i);
+        String s="tapacademy";
+        int count=0;
+
+        for(int i=0;i<s.length();i++){
+
+            char ch=s.charAt(i);
+            if((ch>='a'&& ch<='z')||(ch>='A')&& ch<='Z'){
+                if(!(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' || ch == 'A' ||
+                        ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U')) {
+
+                    count++;
+            }
+            }
         }
-        if (s.equals(rev)) {
-            System.out.println("Palindrome");
-        } else {
-            System.out.println("Not Palindrome");
-        }
+        System.out.println(count);
     }
 }

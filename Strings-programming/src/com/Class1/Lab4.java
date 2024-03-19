@@ -1,27 +1,18 @@
 package com.Class1;
-import java.util.Scanner;
-// Print the words of a given string
+
 public class Lab4 {
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-        String s=sc.next();
-        printWords(s);
-    }
-    private static void printWords(String s) {
-        int count=0;
-        for(int i=0;i<s.length()-1;i++) {
-            if (s.charAt(i) == ' ' && s.charAt(i + 1) != ' ') {
-                count++;
+
+        String s = "Tap Acad@123";
+        String res="";
+
+        for (int i = 0; i < s.length(); i++) {
+
+            char ch = s.charAt(i);
+            if ((ch >='A' && ch <= 'Z' )|| (ch >= 'a' && ch <= 'z')||(ch>='0' && ch<='9') ){
+                          res=res+ch;
+                }
             }
-        }
-            if(s.charAt(0)==' '){
-                System.out.println(count);
-            }
-            else{
-                System.out.println(count+1);
-            }
+        System.out.println(res);
         }
     }
-
-
-

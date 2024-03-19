@@ -1,4 +1,4 @@
-package com.Class1;
+package com.Class2;
 import java.util.Scanner;
 // Print count of Vowels,Consonants,Digits and Special characters of a String
 public class Lab7 {

@@ -1,19 +1,22 @@
 package com.Class1;
-import java.util.Scanner;
-// Print a program to Reverse of a string
+// count the vowels
 public class Lab1 {
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-        String s=sc.next();
 
-        String rev=reverse(s);
-        System.out.println(rev);
-    }
-    private static String reverse(String s){
-        String rev="";
-        for(int i=s.length()-1;i>=0;i--){
-            rev=rev+s.charAt(i);
+        String s = "JaVa";
+        int count = 0;
+
+        for (int i = 0; i < s.length(); i++) {
+
+            char ch = s.charAt(i);
+            if ((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z')) {
+                if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' || ch == 'A' ||
+                        ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U') {
+                    count++;
+                }
+            }
         }
-        return rev;
+            System.out.print(count);
+
     }
 }

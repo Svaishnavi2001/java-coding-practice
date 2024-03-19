@@ -1,6 +1,6 @@
 package com.Multithreading;
-
 import java.util.Scanner;
+// Multithreading (Extending a thread class)
 
 class Demo1 extends Thread{
      @Override
@@ -36,7 +36,7 @@ class Demo3 extends Thread{
         for(int i=1;i<=10;i++){
             System.out.println(i);
             try {
-                Thread.sleep(3000);
+                Thread.sleep(2000);
             }
             catch(Exception e){
 
@@ -47,6 +47,8 @@ class Demo3 extends Thread{
     }
 }
 public class Test2 {
+
+
     public static void main(String[] args) {
          Demo1 d1=new Demo1();
          Demo2 d2=new Demo2();

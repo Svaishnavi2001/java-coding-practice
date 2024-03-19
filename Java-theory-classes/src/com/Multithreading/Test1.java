@@ -16,7 +16,8 @@ public class Test1 {
             System.out.println((char) i);
             try {
                 Thread.sleep(3000);
-            } catch (Exception e) {
+            }
+            catch (Exception e) {
                 //System.out.println("Handled");
                 e.printStackTrace();
             }

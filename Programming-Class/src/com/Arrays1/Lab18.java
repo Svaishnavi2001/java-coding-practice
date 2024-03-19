@@ -14,8 +14,9 @@ public class Lab18 {
     }
     private static void largestElement(int[] ar) {
 
-        long max=Integer.MIN_VALUE;
         // for min value-Integer.MAX_VALUE
+        long max=Integer.MIN_VALUE;
+
         for(int i=0;i<ar.length;i++) {
             if (ar[i] > max) {
                 max = ar[i];

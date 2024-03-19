@@ -14,6 +14,7 @@ public class Lab1 {
     }
     private static void freqOfEachEle(int[] ar) {
         int count=1;
+
         for(int i=0;i<ar.length-1;i++){
           if( ar[i]==ar[i+1]){
               count++;
