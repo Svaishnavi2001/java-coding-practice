@@ -1,4 +1,4 @@
-package com.Class2;
+package com.Cls1;
 import java.util.Scanner;
 // Remove Special characters from a String.
 public class Lab8 {

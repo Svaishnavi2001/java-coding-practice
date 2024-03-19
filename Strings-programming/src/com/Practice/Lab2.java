@@ -1,9 +1,9 @@
-package com.Class1;
+package com.Practice;
 // count consonants
 public class Lab2 {
     public static void main(String[] args) {
 
-        String s="tapacademy";
+        String s="TapAcademy";
         int count=0;
 
         for(int i=0;i<s.length();i++){

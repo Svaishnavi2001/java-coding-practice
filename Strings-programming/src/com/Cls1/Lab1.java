@@ -1,4 +1,4 @@
-package com.Class2;
+package com.Cls1;
 import java.util.Scanner;
 // Print a program to Reverse of a string
 public class Lab1 {

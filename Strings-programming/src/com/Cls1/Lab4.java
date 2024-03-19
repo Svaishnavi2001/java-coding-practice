@@ -1,10 +1,10 @@
-package com.Class2;
+package com.Cls1;
 import java.util.Scanner;
 // Print the words of a given string
 public class Lab4 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        String s=sc.next();
+        String s=sc .next();
         printWords(s);
     }
     private static void printWords(String s) {

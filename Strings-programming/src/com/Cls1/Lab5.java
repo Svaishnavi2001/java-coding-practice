@@ -1,4 +1,4 @@
-package com.Class2;
+package com.Cls1;
 import java.util.Scanner;
 // Print the count of vowels present in a given String.
 public class Lab5 {

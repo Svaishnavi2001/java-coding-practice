@@ -1,14 +1,14 @@
-package com.Class1;
+package com.Practice;
 
 import java.util.Scanner;
 
 public class Lab3 {
     public static void main(String[] args) {
 
-        Scanner scan=new Scanner(System.in);
-        String s=scan.next();
+        Scanner sc=new Scanner(System.in);
+        String s=sc.next();
 
-        int vc=0,cc=0,nc=0,sc=0;
+        int vc=0,cc=0,nc=0,spc=0;
 
         for(int i=0;i<s.length();i++){
 
@@ -26,9 +26,9 @@ public class Lab3 {
                 nc++;
             }
            else{
-               sc++;
+               spc++;
             }
         }
-        System.out.println("vowels:"+vc+" "+"consonants:"+cc+" "+"Numbers:"+nc+" "+"special:"+sc+" ");
+        System.out.println("vowels:"+vc+" "+"consonants:"+cc+" "+"Numbers:"+nc+" "+"special:"+spc+" ");
     }
 }

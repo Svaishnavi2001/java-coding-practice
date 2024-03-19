@@ -1,4 +1,4 @@
-package com.Class2;
+package com.Cls1;
 import java.util.Scanner;
 // Print the spaces of a given string
 public class Lab3 {

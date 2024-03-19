@@ -1,4 +1,4 @@
-package com.Class2;
+package com.Cls1;
 import java.util.Scanner;
 // print the count of Consonants ina given String.
 public class Lab6 {
