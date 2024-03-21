@@ -1,6 +1,6 @@
 package com.Cls1;
 import java.util.Scanner;
-// print the count of Consonants ina given String.
+// print the count of Consonants in a given String.
 public class Lab6 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

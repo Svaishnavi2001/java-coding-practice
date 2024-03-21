@@ -1,5 +1,10 @@
 package com.Cls2;
 
+/* s="TaP$@AcaD123"
+   o/p= TPADaca
+
+*/
+
 public class Lab9 {
     public static void main(String[] args) {
         String s="TaP$@AcaD123";
