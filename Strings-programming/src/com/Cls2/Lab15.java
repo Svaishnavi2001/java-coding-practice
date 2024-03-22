@@ -1,5 +1,5 @@
 package com.Cls2;
-
+// finding a specific character
 import java.util.Scanner;
 
 public class Lab15 {
