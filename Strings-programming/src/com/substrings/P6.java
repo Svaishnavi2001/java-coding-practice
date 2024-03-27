@@ -23,7 +23,7 @@ public class P6 {
          return count+1;
 
     }
-    public static void stringToArray(String s){
+    public static String[] stringToArray(String s){
 
         String []ar=new String[countWords(s)];
         String t="";
@@ -33,7 +33,7 @@ public class P6 {
             if(s.charAt(i)!=' '){
                 t=t+s.charAt(i);
             }
-            else{
+            else if(t.length()>0){
                 ar[j]=t;
                 j++;
                 t="";
@@ -44,5 +44,6 @@ public class P6 {
     for(int i=0;i<ar.length;i++) {
             System.out.println(ar[i]);
         }
+        return ar;
     }
 }
