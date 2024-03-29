@@ -23,20 +23,22 @@ class Employee implements Comparable{
     @Override
     public int compareTo(Object o) {
          Employee ee= (Employee) o;
-        if (this.salary == ee.salary) {
-            return 0;
-        }
-        else if(this.salary>ee.salary){
-            return 1;
-        }
-        else{
-            return -1;
-        }
+//        if (this.age == ee.age) {
+//            return 0;
+//        }
+//        else if(this.age>ee.age){
+//            return 1;
+//        }
+//        else{
+//            return -1;
+//        }
+       return this.name.compareTo(ee.name);
     }
 }
 
 public class SortingComplexObjects {
     public static void main(String[] args) {
+        
         Employee e1=new Employee("Rahul",26, 25000);
         Employee e2=new Employee("Sachin",28,30000);
         Employee e3=new Employee("Sneha",23,20000);
