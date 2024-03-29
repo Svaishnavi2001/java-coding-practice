@@ -1,5 +1,5 @@
 package collection_practice;
-// Sorting complex objects in collections.
+// Sorting complex objects in collections.(comparable Interface)
 
 import java.util.ArrayList;
 import java.util.Collections;
