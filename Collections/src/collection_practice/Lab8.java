@@ -54,12 +54,19 @@ class Beta implements Comparator{
       return e1.getSalary()-e2.getSalary();
     }
 }
+class Gamma implements Comparator{
+
+    @Override
+    public int compare(Object o1, Object o2) {
+       Employee1 e1= (Employee1) o1;
+       Employee1 e2= (Employee1) o2;
+       return e1.getName().compareTo(e2.getName());
+    }
+}
 
 public class Lab8 {
     public static void main(String[] args) {
 
-        Alpha a=new Alpha();
-        Beta b=new Beta();
 
         Employee1 e1=new Employee1("Arun",26,20000);
         Employee1 e2=new Employee1("Bob",24,30000);
@@ -72,13 +79,16 @@ public class Lab8 {
         al.add(e3);
         al.add(e4);
 
-        System.out.println(al);
+        System.out.println("Data:"+al);
 
-        Collections.sort(al,a);
+        Collections.sort(al,new Alpha());
         System.out.println("Sorting on age:"+al);
 
-        Collections.sort(al,b);
+        Collections.sort(al,new Beta());
         System.out.println("Sorting on salary:"+ al);
+
+        Collections.sort(al,new Gamma());
+        System.out.println("Sorting on name:"+al);
 
     }
 }
