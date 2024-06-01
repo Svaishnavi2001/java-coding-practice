@@ -14,7 +14,7 @@ public class Lab4 {
         System.out.println(res);
     }
     private static int largestRepeatingEle(int[] ar) {
-        for (int i=ar.length-1;i>0;i--) {
+        for (int i=ar.length-2;i>=0;i--) {
             if (ar[i]==ar[i-1]) {
                 return ar[i];
             }

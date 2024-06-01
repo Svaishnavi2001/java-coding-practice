@@ -1,7 +1,7 @@
 package com.Arrays2;
 import java.util.Scanner;
 // i/p- 4 5 1 7 2  & k=6
-// o/p- 4 2, 5 1
+// o/p- 4 2,5 1
 // Print the pairs whose sum=k
 public class Lab25 {
     public static void main(String[] args) {

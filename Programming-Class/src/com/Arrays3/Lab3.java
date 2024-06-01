@@ -1,6 +1,6 @@
 package com.Arrays3;
 import java.util.Scanner;
-// Print the count if unique elements of an Array.
+// Print the count of unique elements of an Array.
 public class Lab3 {
     public static void main(String[] args) {
         Scanner scan=new Scanner(System.in);

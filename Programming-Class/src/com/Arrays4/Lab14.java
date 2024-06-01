@@ -9,27 +9,20 @@ public class Lab14 {
         for (int i = 0; i < ar.length; i++) {
             ar[i] = scan.nextInt();
         }
-        int k = scan.nextInt();
-
-        printAllSubArrays(ar, k);
+        printAllSubArrays(ar);
     }
 
-    private static void printAllSubArrays (int[] ar, int k) {
-        int sum=0;
-       for(int size=ar.length;size>=1;size--){
-           for(int i=0;i<=ar.length-size;i++){
-               sum=0;
-               for(int j=i;j<i+size;j++){
-                   sum=sum+ar[j];
-               }
-               if(sum==k){
-                   for(int j=i;j<i+size;j++){
-                       System.out.print(ar[j]+" ");
-                   }
-                   System.out.println();
-                   break;
-               }
-           }
+    private static void printAllSubArrays(int[] ar) {
+        int sum = 0;
+        for (int s = ar.length; s >= 1; s--) {
+            for(int i=0;i<=ar.length-s;i++){
+                sum=0;
+                for(int j=i;j<i+s;j++){
+                    sum=sum+ar[j];
+                }
+            }
+            break;
         }
+        System.out.println(sum);
     }
 }

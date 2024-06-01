@@ -14,7 +14,7 @@ public class Lab12 {
         sumOfSubArrays(ar, size1, k);
     }
     private static void sumOfSubArrays(int[] ar, int size1, int k) {
-        int count = 0, sum = 0;
+        int  sum = 0;
         for (int i = 0; i <= ar.length - size1; i++) {
             sum = 0;
             for (int j = i; j < i + size1; j++) {
@@ -24,7 +24,7 @@ public class Lab12 {
                 for (int j = i; j < i + size1; j++){
                     System.out.print(ar[j]+" ");
                 }
-                System.out.println();
+               System.out.println();
             }
         }
     }
