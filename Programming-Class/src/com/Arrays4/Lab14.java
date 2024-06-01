@@ -14,10 +14,10 @@ public class Lab14 {
 
     private static void printAllSubArrays(int[] ar) {
         int sum = 0;
-        for (int s = ar.length; s >= 1; s--) {
-            for(int i=0;i<=ar.length-s;i++){
+        for (int size = ar.length; size >= 1; size--) {
+            for(int i=0;i<=ar.length-size;i++){
                 sum=0;
-                for(int j=i;j<i+s;j++){
+                for(int j=i;j<i+size;j++){
                     sum=sum+ar[j];
                 }
             }
