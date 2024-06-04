@@ -1,6 +1,6 @@
 package com.Cls1;
 import java.util.Scanner;
-// Print a program to Reverse of a string
+// Program to print Reverse of a string
 public class Lab1 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);

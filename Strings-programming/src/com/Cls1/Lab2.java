@@ -8,25 +8,40 @@ public class Lab2 {
         Scanner sc=new Scanner(System.in);
         String s=sc.next();
 
-            String rev=reverseString(s);
+//            String rev=reverseString(s);
+//
+//            if(s.equals(rev)) {
+//                System.out.println("palindrome");
+//            }
+//            else{
+//                System.out.println("not palindrome");
+//            }
+//        }
+//
+//        private static String reverseString(String s) {
+//
+//         String rev="";
+//
+//         for(int i=s.length()-1;i>=0;i--){
+//             rev=rev+s.charAt(i);
+//         }
+//         return rev;
+        String res=palindromeOrNot(s);
+        System.out.println(res);
+    }
 
-            if(s.equals(rev)) {
-                System.out.println("palindrome");
+    private static String palindromeOrNot(String s) {
+
+        int i=0,j=s.length()-1;
+        while(i<j){
+            if(s.charAt(i)==s.charAt(j)){
+                i++;j--;
             }
             else{
-                System.out.println("not palindrome");
+                return "Not Palindrome";
             }
         }
-
-        private static String reverseString(String s) {
-
-         String rev="";
-
-         for(int i=s.length()-1;i>=0;i--){
-             rev=rev+s.charAt(i);
-         }
-         return rev;
-
+        return "Palindrome";
 
     }
 }

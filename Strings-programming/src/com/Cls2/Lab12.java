@@ -1,6 +1,6 @@
 package com.Cls2;
 
-//Removing extra spaces
+//Removing extra spaces from start amd end
 
 import java.util.Scanner;
 
