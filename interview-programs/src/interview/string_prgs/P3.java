@@ -1,4 +1,4 @@
-package com.basic_string_prgs;
+package interview.string_prgs;
 // Palindrome or not
 public class P3 {
 

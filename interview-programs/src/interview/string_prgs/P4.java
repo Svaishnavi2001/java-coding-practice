@@ -1,4 +1,4 @@
-package com.basic_string_prgs;
+package interview.string_prgs;
 // lowercase to uppercase
 public class P4 {
     public static void main(String[] args) {

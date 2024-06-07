@@ -1,5 +1,6 @@
-package com.basic_string_prgs;
+package interview.string_prgs;
 // Reverse String
+
 public class P2 {
     public static void main(String[] args) {
 
