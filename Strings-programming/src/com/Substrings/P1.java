@@ -1,4 +1,4 @@
-package com.substrings;
+package com.Substrings;
 // Print all substrings of given size  of string
 import java.util.Scanner;
 

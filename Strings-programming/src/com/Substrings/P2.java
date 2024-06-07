@@ -1,4 +1,4 @@
-package com.substrings;
+package com.Substrings;
 
 // Check whether a subString is palindrome or not
 

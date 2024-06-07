@@ -1,4 +1,4 @@
-package com.substrings;
+package com.Substrings;
 
 // Converting String to Array
 

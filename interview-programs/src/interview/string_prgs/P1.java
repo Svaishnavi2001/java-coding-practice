@@ -1,4 +1,4 @@
-package com.Interview_Prgs;
+package interview.string_prgs;
 
 public class P1 {
 

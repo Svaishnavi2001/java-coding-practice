@@ -1,4 +1,4 @@
-package com.substrings;
+package com.Substrings;
 // substring is palindrome or not without length given
 import java.util.Scanner;
 

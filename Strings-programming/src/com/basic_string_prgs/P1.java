@@ -1,4 +1,4 @@
-package com.Basic_Prgs;
+package com.basic_string_prgs;
 
 public class P1 {
     public static void main(String[] args){

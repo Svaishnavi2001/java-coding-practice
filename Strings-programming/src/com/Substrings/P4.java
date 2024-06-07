@@ -1,4 +1,4 @@
-package com.substrings;
+package com.Substrings;
 
 // Print all substring of a given string
 

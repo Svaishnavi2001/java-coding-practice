@@ -1,4 +1,4 @@
-package com.Basic_Prgs;
+package com.basic_string_prgs;
 // Palindrome or not
 public class P3 {
 
