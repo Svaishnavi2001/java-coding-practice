@@ -1,6 +1,6 @@
 package interview.string_prgs;
 // Palindrome or not
-public class P3 {
+public class PalindromeOrNot {
 
     public static void  main(String[] args) {
 

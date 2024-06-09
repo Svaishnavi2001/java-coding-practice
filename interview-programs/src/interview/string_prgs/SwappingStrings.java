@@ -2,7 +2,7 @@ package interview.string_prgs;
 import java.util.Scanner;
 // How To Swap Two String Variables Without Using Third OR Temp Variable In Java?
 
-public class P5 {
+public class SwappingStrings {
     public static void main(String[] args) {
 
         Scanner sc=new Scanner(System.in);

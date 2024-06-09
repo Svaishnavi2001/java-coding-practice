@@ -5,7 +5,7 @@ import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Set;
 
-public class P1 {
+public class RemovingDuplicatesFromList {
     public static void main(String[] args) {
 
         List<Integer> list=new ArrayList<Integer>();

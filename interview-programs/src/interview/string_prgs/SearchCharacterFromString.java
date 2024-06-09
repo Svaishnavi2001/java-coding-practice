@@ -1,6 +1,6 @@
 package interview.string_prgs;
 // searching a  specific character from a string
-public class P7 {
+public class SearchCharacterFromString {
     public static void main(String[] args) {
 
         String str= "matrix";

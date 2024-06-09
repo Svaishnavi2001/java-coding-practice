@@ -4,7 +4,7 @@ package interview.string_prgs;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
-public class P6 {
+public class RemoveDuplicatesFromString {
     public static void main(String[] args) {
 
         String str="Banana";

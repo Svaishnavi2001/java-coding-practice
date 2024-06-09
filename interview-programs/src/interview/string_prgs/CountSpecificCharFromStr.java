@@ -1,6 +1,6 @@
 package interview.string_prgs;
-
-public class P8 {
+// count occurrence of a  specific character in a string
+public class CountSpecificCharFromStr {
     public static void main(String[] args) {
 
         String str="Hello world";

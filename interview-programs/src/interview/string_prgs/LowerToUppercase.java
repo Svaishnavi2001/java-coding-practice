@@ -1,6 +1,6 @@
 package interview.string_prgs;
 // lowercase to uppercase
-public class P4 {
+public class LowerToUppercase {
     public static void main(String[] args) {
 
           String str = "how";
