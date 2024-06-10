@@ -1,0 +1,40 @@
+
+HashMap in Java is a part of the Java Collections Framework and is used to store data in key-value pairs.
+Internally, it uses an array of linked lists (or more recently, an array of binary trees) to store the data
+efficiently. Here’s a detailed explanation of how it works:
+
+1. Basic Structure:
+A HashMap is backed by an array. Each element in this array is a bucket that can contain multiple entries
+due to hash collisions. Each entry consists of a key-value pair.
+
+2. Hash Function:
+When you insert a key-value pair into the HashMap, Java first computes the hash code of the key using the
+key's "hashCode()" method. This hash code is then used to determine the index of the array where the key-value
+pair should be stored. The index is calculated using the formula:
+                       index=hashcode%array.length
+
+To ensure that the index is within the bounds of the array, Java uses a bitwise AND operation instead of
+modulus:
+
+3. Handling Collisions:
+ Collisions occur when two different keys produce the same index. In such cases, HashMap uses a linked list
+ or a binary tree (from Java 8 onwards) at each index to store multiple entries. If the number of entries
+ in a bucket exceeds a certain threshold, the linked list is converted into a binary tree to improve
+ performance.
+
+4. Adding Entries:
+When adding a new key-value pair:
+
+1.Compute the hash code of the key.
+2.Determine the index in the array using the hash code.
+3.Check if the key already exists in the bucket at that index.
+4.If the key exists, update the value.
+5.If the key does not exist, add a new entry to the bucket.
+
+5. Searching for Entries:
+When searching for a value by its key:
+
+1.Compute the hash code of the key.
+2.Determine the index in the array using the hash code.
+3.Traverse the linked list or binary tree at that index to find the key.
+4.Return the corresponding value.
