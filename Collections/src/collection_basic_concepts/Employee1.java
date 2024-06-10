@@ -1,6 +1,6 @@
-package interview.problems;
+package collection_basic_concepts;
 
-public class Employee {
+public class Employee1 {
 
     private int id;
     private String name;
@@ -9,15 +9,15 @@ public class Employee {
     private double salary;
     private String email;
 
-    public Employee(int id,String name,String department,String position,double salary,String email){
+    public Employee1(int id, String name, String department, String position,double salary,String email){
         this.id=id;
         this.name=name;
         this.department=department;
         this.position=position;
         this.salary=salary;
         this.email=email;
-
     }
+
     public int getId(){
         return id;
     }
@@ -49,5 +49,5 @@ public class Employee {
                 '}';
 
     }
-}
 
+}

@@ -1,10 +1,9 @@
-package interview.problems;
+package collection_basic_concepts;
 
 import java.util.Iterator;
-import java.util.ListIterator;
 import java.util.TreeSet;
 
-public class Problem3 {
+public class TreeTraversing {
     public static void main(String[] args) {
 
         TreeSet<Integer> set=new TreeSet<>();

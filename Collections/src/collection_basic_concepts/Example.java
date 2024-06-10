@@ -1,4 +1,4 @@
-package interview.problems;
+package collection_basic_concepts;
 
 import java.util.ArrayList;
 import java.util.HashMap;

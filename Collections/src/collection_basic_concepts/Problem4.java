@@ -1,4 +1,4 @@
-package interview.problems;
+package collection_basic_concepts;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -22,7 +22,7 @@ public class Problem4
         }
 
         System.out.println("Using for loop:");
-        for(Employee  employee: employees){
+        for(Employee employee: employees){
             System.out.println(employee);
         }
 

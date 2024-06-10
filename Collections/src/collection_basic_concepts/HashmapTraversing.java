@@ -1,11 +1,10 @@
-package interview.problems;
+package collection_basic_concepts;
 
 import java.util.HashMap;
 import java.util.Iterator;
-import java.util.ListIterator;
 import java.util.Map;
 
-public class Problem2 {
+public class HashmapTraversing {
     public static void main(String[] args) {
 
         HashMap<Integer,String> map=new HashMap<>();

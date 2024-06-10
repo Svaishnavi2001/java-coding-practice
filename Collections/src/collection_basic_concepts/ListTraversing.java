@@ -1,14 +1,14 @@
-package interview.problems;
+package collection_basic_concepts;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.ListIterator;
 
-public class Problem1 {
+public class ListTraversing {
     public static void main(String[] args) {
 
 
-        ArrayList<String> list=new ArrayList();
+        ArrayList<String> list=new ArrayList<>();
         list.add("Apple");
         list.add("Cherry");
         list.add("Banana");
