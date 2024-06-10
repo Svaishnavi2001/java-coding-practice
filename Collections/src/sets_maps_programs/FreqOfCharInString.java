@@ -15,7 +15,8 @@ public class FreqOfCharInString {
                   char ch=str.charAt(i);
                   if(map.containsKey(ch)){
 
-                      Integer value=map.get(ch);
+                      Integer
+                              value=map.get(ch);
                       value=value+1;
                       map.put(ch,value);
                   }

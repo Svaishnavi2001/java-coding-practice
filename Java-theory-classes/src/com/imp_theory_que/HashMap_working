@@ -1,11 +1,16 @@
 
 HashMap in Java is a part of the Java Collections Framework and is used to store data in key-value pairs.
-Internally, it uses an array of linked lists (or more recently, an array of binary trees) to store the data
-efficiently. Here’s a detailed explanation of how it works:
+Internally, it uses an array of linked lists to store the data efficiently.
 
 1. Basic Structure:
-A HashMap is backed by an array. Each element in this array is a bucket that can contain multiple entries
-due to hash collisions. Each entry consists of a key-value pair.
+
+a.Array of buckets:
+HashMap uses an array of nodes(buckets). Each bucket is a linked list (or a tree in certain conditions)
+where entries with the same hash code are stored. The default capacity of this array is 16.
+
+b. Node class:
+Each element in the HashMap is stored in an instance of the Node class, which implements the Map.Entry
+interface.A Node contains a key, a value, a hash code, and a reference to the next node in the linked list.
 
 2. Hash Function:
 When you insert a key-value pair into the HashMap, Java first computes the hash code of the key using the
