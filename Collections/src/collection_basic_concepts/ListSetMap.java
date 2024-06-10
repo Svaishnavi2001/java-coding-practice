@@ -1,4 +1,4 @@
-package sets_maps_programs;
+package collection_basic_concepts;
 
 import java.util.*;
 

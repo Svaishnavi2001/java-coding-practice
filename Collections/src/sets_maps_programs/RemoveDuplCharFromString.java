@@ -1,9 +1,8 @@
 package sets_maps_programs;
 
-import java.util.HashSet;
 import java.util.TreeSet;
 
-public class RemoveDuplicatesFromString {
+public class RemoveDuplCharFromString {
     public static void main(String[] args) {
 
         String str = "mississippi";
