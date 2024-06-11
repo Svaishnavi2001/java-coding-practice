@@ -13,7 +13,7 @@ Each element in the HashMap is stored in an instance of the Node class, which im
 interface.A Node contains a key, a value, a hash code, and a reference to the next node in the linked list.
 
 2. Hash Function:
-When you insert a key-value pair into the HashMap, Java first computes the hash code of the key using the
+When we insert a key-value pair into the HashMap, Java first computes the hash code of the key using the
 key's "hashCode()" method. This hash code is then used to determine the index of the array where the key-value
 pair should be stored. The index is calculated using the formula:
                        index=hashcode%array.length
