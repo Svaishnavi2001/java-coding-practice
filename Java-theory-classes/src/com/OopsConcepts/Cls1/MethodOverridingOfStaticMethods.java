@@ -2,17 +2,18 @@ package com.OopsConcepts.Cls1;
 // Method Hiding concept
 
 class Parent {
-    static void disp() {
+    static void display() {
         System.out.println("Hi");
     }
 }
 class Child extends Parent {
-    static void disp(){
+    static void display(){
         System.out.println("Hello");
     }
 }
-public class Demo2 {
+public class MethodOverridingOfStaticMethods {
     public static void main(String[] args) {
-        Child.disp();
+        Child.display();
+        Parent.display();
     }
 }
