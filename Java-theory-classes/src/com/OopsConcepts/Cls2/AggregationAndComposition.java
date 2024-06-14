@@ -38,7 +38,7 @@ class Mobile{
         System.out.println(c.getVoltage());
     }
 }
-public class Lab3 {
+public class AggregationAndComposition {
     public static void main(String[] args) {
         Mobile m=new Mobile();
         Charger c=new Charger("SAMSUNG",12.0f);

@@ -8,11 +8,12 @@ abstract class Demo{
      }
 }
 class Demo1 extends Demo{
+
      Demo1(){
           System.out.println("Inside child constructor ");
      }
 }
-public class Lab5 {
+public class AbstractionWithConstructor {
      public static void main(String[] args) {
           Demo1 d=new Demo1();
      }

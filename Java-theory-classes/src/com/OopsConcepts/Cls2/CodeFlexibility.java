@@ -1,5 +1,6 @@
 package com.OopsConcepts.Cls2;
 // Loose coupling in Polymorphism ( for code flexible)
+
 class Plane {
     void fly(){
         System.out.println("Plane flies");
@@ -29,7 +30,7 @@ class Airport{
         ref.fly();
     }
 }
-public class Lab1 {
+public class CodeFlexibility {
     public static void main(String[] args) {
         CargoPlane cp=new CargoPlane();
         PassengerPlane pp=new PassengerPlane();

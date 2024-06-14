@@ -48,7 +48,7 @@ class BirdFamily{
         b.eat();
     }
 }
-public class Lab7 {
+public class AbstractionWithCodeFlexibility {
     public static void main(String[] args) {
         SerpentEagle1 se = new SerpentEagle1();
         OceanEagle1 oe = new OceanEagle1();
