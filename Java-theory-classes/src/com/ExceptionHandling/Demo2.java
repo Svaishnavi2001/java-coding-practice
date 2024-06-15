@@ -35,7 +35,7 @@ public class Demo2 {
         catch (ArrayIndexOutOfBoundsException aie){
             System.out.println("Provide valid index");
         }
-        // Generic catch block
+//        // Generic catch block
         catch (Exception e){
             System.out.println("Invalid input! Try again");
         }
