@@ -10,8 +10,9 @@ public class Lab6b {
         System.out.println(res);
     }
     private static String countFactors(int n){
-        int count=0;
+
         if(n==1){
+
             return "Not Prime";
         }
         for(int i=2;i<=n-1;i++) {
