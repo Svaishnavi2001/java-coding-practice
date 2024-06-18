@@ -3,7 +3,7 @@ package interview.string_prgs;
 
 public class StringReverse {
     public static void main(String[] args) {
-        String s="this is javatpoint";
+        String s="this is javaTPoint";
         String rev="";
         for(int i=s.length()-1;i>=0;i--){
             rev=rev+s.charAt(i);
@@ -11,7 +11,8 @@ public class StringReverse {
 
         System.out.println(rev);
 
-        String str ="this is javatpoint";
+        // using stringBuilder class
+        String str ="this is javaTPoint";
         StringBuilder sb = new StringBuilder(str);
         sb.reverse();
         String rev1 = sb.toString();
