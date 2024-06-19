@@ -1,4 +1,4 @@
-package com.Class1;
+package com.stars_pattern_prg;
 /*
 *****
 ****
@@ -6,7 +6,7 @@ package com.Class1;
 **
 *
  */
-public class Pat5 {
+public class Pat3 {
     public static void main(String[] args) {
         for(int i=1;i<=5;i++) {
             for (int j=1;j<=5-i+1;j++){

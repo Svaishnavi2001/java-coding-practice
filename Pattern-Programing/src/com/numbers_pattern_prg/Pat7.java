@@ -1,4 +1,4 @@
-package com.Class4;
+package com.numbers_pattern_prg;
 /*
 1
 2 2
@@ -6,7 +6,7 @@ package com.Class4;
 4 4 4 4
 5 5 5 5 5
  */
-public class Pat18 {
+public class Pat7 {
     public static void main(String[] args) {
         for(int i=1;i<=5;i++){
             for(int j=1;j<=i;j++){
