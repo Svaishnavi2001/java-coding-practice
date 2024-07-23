@@ -1,18 +1,16 @@
 package collection_basic_concepts;
 
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
+import java.util.*;
 
-public class HashmapTraversing {
+public class MapTraversing {
     public static void main(String[] args) {
 
-        HashMap<Integer,String> map=new HashMap<>();
+        Map<Integer,String> map=new HashMap<>();
         map.put(100,"India");
-        map.put(200,"Japan");
-        map.put(300,"China");
-        map.put(400,"Korea");
-        map.put(500,"USA");
+        map.put(300,"Japan");
+        map.put(200,"China");
+        map.put(500,"Korea");
+        map.put(400,"USA");
 
         System.out.println("iteration over keys:");
         for(Integer key:map.keySet()){

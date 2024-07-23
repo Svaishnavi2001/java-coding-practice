@@ -1,4 +1,4 @@
-package interview.string_prgs;
+package interview.collections;
 
 import java.util.HashMap;
 import java.util.Map;

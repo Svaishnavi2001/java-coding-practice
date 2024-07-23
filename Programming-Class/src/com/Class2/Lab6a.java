@@ -1,7 +1,7 @@
 package com.Class2;
 import java.util.Scanner;
 // Whether the given number is Prime or not.
-public class Lab6a {
+public class  Lab6a {
     public static void main(String[] args) {
         Scanner scan=new Scanner(System.in);
         int n= scan.nextInt();
@@ -15,10 +15,10 @@ public class Lab6a {
             }
         }
         if(count==0){
-            System.out.println(" Prime");
+            System.out.println("Prime");
         }
         else{
-            System.out.println(" Not a Prime");
+            System.out.println("Not a Prime");
         }
     }
 }

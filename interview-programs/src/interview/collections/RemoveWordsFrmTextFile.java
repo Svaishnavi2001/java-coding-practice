@@ -1,4 +1,4 @@
-package interview.string_prgs;
+package interview.collections;
 
 import java.io.*;
 import java.util.Arrays;

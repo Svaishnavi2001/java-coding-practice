@@ -1,10 +1,9 @@
 package interview.collections;
-
-
 import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.Set;
 
-public class Practice {
+public class freqOfEachCharInString {
 
     public static void main(String[] args) {
 
@@ -26,6 +25,9 @@ public class Practice {
                 stringIntegerMap.put(chars[i],1);
             }
         }
-        System.out.println(stringIntegerMap);
+        Set<Map.Entry<Character, Integer>> characterIntegerEntry=stringIntegerMap.entrySet();
+        for(Map.Entry<Character, Integer> characterIntegerEntry1:characterIntegerEntry){
+            System.out.println(characterIntegerEntry1.getKey()+":"+characterIntegerEntry1.getValue());
+        }
     }
 }

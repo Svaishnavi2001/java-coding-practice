@@ -10,12 +10,12 @@ public class Lab6 {
 
     private static void isPrimeOrNot(int n) {
         int count=0;
-        for(int i=2;i<=n/2;i++){  // other ways -->(i<=n-1,i*i<=n)
+        for(int i=1;i<=n;i++){  // other ways -->(i<=n-1,i*i<=n)
             if(n%i==0){
                 count++;
             }
         }
-        if(count==0){
+        if(count==2){
             System.out.println("Prime");
         }
         else{
