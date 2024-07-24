@@ -8,7 +8,7 @@ public class RemoveDuplicatesFromArray {
     public static void main(String[] args) {
 
         int []arr={1,2,2,3,1,2,3,4,7};
-       /* int[]temp=new int[arr.length];
+        int[]temp=new int[arr.length];
         int j=0;
 
         for(int i=0;i<arr.length-1;i++) {
@@ -21,15 +21,15 @@ public class RemoveDuplicatesFromArray {
             j++;
 
         for(int k=0;k<j;k++){
-            System.out.println(temp[k]+" ");
-        }*/
+            System.out.print(temp[k]+" ");
+        }
 
         Set<Integer> integerSet=new HashSet<>();
         for(int i:arr){
             integerSet.add(i);
         }
 
-        System.out.println(integerSet);
+        System.out.println("\n" +integerSet);
 
     }
 }

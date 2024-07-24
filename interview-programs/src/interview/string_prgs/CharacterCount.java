@@ -9,23 +9,23 @@ public class CharacterCount {
     public static void main(String[] args) {
 
         String str="mississippi";
-        char[] chars=str.toCharArray();
+        char[] charArray=str.toCharArray();
 
-        Map<Character,Integer> characterIntegerMap=new LinkedHashMap<>();
+        Map<Character,Integer> map=new LinkedHashMap<>();
 
-        for(int i=0;i<chars.length;i++){
+        for(int i=0;i<charArray.length;i++){
             int flag=1;
-              if(characterIntegerMap.containsKey(chars[i])){
+              if(map.containsKey(charArray[i])){
 
-                  flag=flag+characterIntegerMap.get(chars[i]);
+                  flag=flag+map.get(charArray[i]);
 
-                  characterIntegerMap.put(chars[i], flag);
+                  map.put(charArray[i], flag);
               }
               else{
-                  characterIntegerMap.put(chars[i],1);
+                  map.put(charArray[i],1);
               }
 
         }
-        System.out.println(characterIntegerMap);
+        System.out.println(map);
     }
 }
