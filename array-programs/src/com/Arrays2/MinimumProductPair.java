@@ -2,7 +2,7 @@ package com.Arrays2;
 import java.util.Scanner;
 // Minimum product pair of an Array.
 
-public class Lab23 {
+public class MinimumProductPair {
     public static void main(String[] args) {
         Scanner scan=new Scanner(System.in);
         int size=scan.nextInt();

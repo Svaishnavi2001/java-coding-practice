@@ -17,19 +17,26 @@ public class RemoveElement {
                 count++;
             }
         }
+        // Create a new array with a size less than the original array by the number of elements to remove
         int []newArray=new int[ar.length-count];
         int j=0;
 
+        // Copy elements except the one to remove
         for(int i=0;i<ar.length;i++) {
             if (ar[i] != n) {
                 newArray[j] = ar[i];
                 j++;
             }
-            System.out.print(ar[i] + " ");
+
+        }
+        // original array
+        for(int i=0;i<ar.length;i++){
+            System.out.print(ar[i]+" ");
         }
         System.out.println();
-            for(int k=0;k<j;k++){
-                System.out.print(newArray[k]+" ");
+        // new array
+        for(int k=0;k<j;k++){
+            System.out.print(newArray[k]+" ");
             }
 
         }

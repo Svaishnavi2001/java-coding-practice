@@ -1,7 +1,7 @@
 package com.Arrays2;
 import java.util.Scanner;
 // Maximum sum of 2 elements of an Array. (Max Sum pair)
-public class Lab22 {
+public class SumOfTwoMaximums {
     public static void main(String[] args) {
         Scanner scan=new Scanner(System.in);
         int size=scan.nextInt();

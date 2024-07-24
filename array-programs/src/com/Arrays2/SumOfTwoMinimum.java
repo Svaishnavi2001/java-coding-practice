@@ -1,7 +1,7 @@
 package com.Arrays2;
 import java.util.Scanner;
 // Minimum sum of 2 elements of an Array.(Min Sum pair)
-public class Lab22a {
+public class SumOfTwoMinimum {
     public static void main(String[] args) {
         Scanner scan=new Scanner(System.in);
         int size=scan.nextInt();
