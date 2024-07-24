@@ -1,15 +1,10 @@
 package com.Arrays1;
-import java.util.Scanner;
-// Largest element of an Array.
-public class Lab18 {
-    public static void main(String[] args) {
-        Scanner scan=new Scanner(System.in);
-        int size=scan.nextInt();
-        int []ar=new int[size];
 
-        for(int i=0;i<ar.length;i++) {
-            ar[i]=scan.nextInt();
-        }
+// Largest element of an Array.
+public class FirstMaximum {
+    public static void main(String[] args) {
+
+        int []ar={1,2,4,6,7,8};
         largestElement(ar);
     }
     private static void largestElement(int[] ar) {
