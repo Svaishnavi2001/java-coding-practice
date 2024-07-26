@@ -8,26 +8,26 @@ public class freqOfEachCharInString {
     public static void main(String[] args) {
 
         String str="hello world hello";
-        char []chars=str.toCharArray();
+        char []charArray=str.toCharArray();
 
-        Map<Character, Integer> stringIntegerMap=new LinkedHashMap<>();
+        Map<Character, Integer> map=new LinkedHashMap<>();
 
-        for(int i=0;i<chars.length;i++){
+        for(int i=0;i<charArray.length;i++){
             int flag=1;
-            if(stringIntegerMap.containsKey(chars[i])){
+            if(map.containsKey(charArray[i])){
 
-                flag=flag+stringIntegerMap.get(chars[i]);
+                flag=flag+map.get(charArray[i]);
 
-                stringIntegerMap.put(chars[i],flag);
+                map.put(charArray[i],flag);
 
                 }
             else{
-                stringIntegerMap.put(chars[i],1);
+                map.put(charArray[i],1);
             }
         }
-        Set<Map.Entry<Character, Integer>> characterIntegerEntry=stringIntegerMap.entrySet();
-        for(Map.Entry<Character, Integer> characterIntegerEntry1:characterIntegerEntry){
-            System.out.println(characterIntegerEntry1.getKey()+":"+characterIntegerEntry1.getValue());
+        Set<Map.Entry<Character, Integer>> entry=map.entrySet();
+        for(Map.Entry<Character, Integer> entry1:entry){
+            System.out.println(entry1.getKey()+":"+entry1.getValue());
         }
     }
 }

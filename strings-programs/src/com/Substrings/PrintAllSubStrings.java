@@ -1,26 +1,28 @@
 package com.Substrings;
-// Print all substrings of given size  of string
-import java.util.Scanner;
+
+// Print all substring of a given string
 
 public class PrintAllSubStrings {
     public static void main(String[] args) {
-        
-        Scanner sc=new Scanner(System.in);
-         String s=sc.nextLine();
-         int size=sc.nextInt();
-         
-         printSubStrings(s,size);
-         
+
+
+        String s="mississippi";
+
+        printAllSubstring(s);
     }
 
-    private static void printSubStrings(String s, int size) {
+    private static void printAllSubstring(String s) {
 
-        for(int i=0;i<=s.length()-size;i++){
-            String t="";
-            for(int j=i;j<size+i;j++){
-                t=t+s.charAt(j);
+        for (int size = s.length(); size >=1; size--) {
+
+            for (int i = 0; i <= s.length() - size; i++) {
+                String t = "";
+                for (int j = i; j < size + i; j++) {
+                    t = t + s.charAt(j);
+                }
+                System.out.println(t);
             }
-            System.out.println(t);
+            return;
         }
     }
 }
