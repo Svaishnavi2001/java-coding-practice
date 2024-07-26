@@ -29,18 +29,19 @@ public class RemoveDuplicatesFromArray {
         System.out.println();
 
         // This is for Non-sorted array
-        Set<Integer> hs=new HashSet<>();
+        Set<Integer> set=new HashSet<>();
         for(int i=0;i< arr.length;i++){
-            hs.add(arr[i]);
+            set.add(arr[i]);
         }
-        int []newArray=new int[hs.size()];
+        /*int []newArray=new int[hs.size()];
         int index=0;
 
         for(int num:hs) {
             newArray[index] = num;
             index++;
         }
-        System.out.println(Arrays.toString(newArray));
+        System.out.println(Arrays.toString(newArray));*/
+        System.out.println(set.toString());
 
     }
 }

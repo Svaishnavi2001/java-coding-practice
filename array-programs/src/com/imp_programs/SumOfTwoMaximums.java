@@ -1,4 +1,4 @@
-package com.Arrays2;
+package com.imp_programs;
 import java.util.Scanner;
 // Maximum sum of 2 elements of an Array. (Max Sum pair)
 public class SumOfTwoMaximums {

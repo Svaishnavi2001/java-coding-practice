@@ -1,4 +1,4 @@
-package com.Arrays1;
+package com.imp_programs;
 
 public class RemoveElement {
     public static void main(String[] args) {
@@ -6,6 +6,7 @@ public class RemoveElement {
         int []ar={1,2,3,4,5};
         int n=2;
         removeEle(ar,n);
+
 
     }
 

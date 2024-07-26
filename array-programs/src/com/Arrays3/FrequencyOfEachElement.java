@@ -1,7 +1,7 @@
 package com.Arrays3;
 import java.util.Scanner;
 // Frequency of each element present in an Array.
-public class Lab1 {
+public class FrequencyOfEachElement {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int size = scan.nextInt();

@@ -1,8 +1,8 @@
 package interview.string_prgs;
 
-
 import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.Set;
 
 public class CharacterCount {
 
@@ -26,6 +26,9 @@ public class CharacterCount {
               }
 
         }
-        System.out.println(map);
+        Set<Map.Entry<Character,Integer>> entrySet=map.entrySet();
+        for(Map.Entry<Character,Integer> entry:entrySet){
+           System.out.println(entry.getKey()+" "+entry.getValue()+" ");
+       }
     }
 }

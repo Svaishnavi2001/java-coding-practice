@@ -1,15 +1,11 @@
 package com.Arrays3;
-import java.util.Scanner;
-// Print the count of unique elements of an Array.
-public class Lab3 {
-    public static void main(String[] args) {
-        Scanner scan=new Scanner(System.in);
-        int size=scan.nextInt();
-        int []ar=new int[size];
 
-        for(int i=0;i<ar.length;i++){
-              ar[i]=scan.nextInt();
-          }
+// Print the count of unique elements of an Array.
+public class CountOfUniqueElements {
+    public static void main(String[] args) {
+
+        int []ar={2,2,2,3,4,4,4,23};
+
         countUniqueEle(ar);
     }
     private static void countUniqueEle(int[] ar) {

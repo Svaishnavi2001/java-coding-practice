@@ -1,4 +1,4 @@
-package com.Arrays2;
+package com.imp_programs;
 import java.util.Scanner;
 // Minimum sum of 2 elements of an Array.(Min Sum pair)
 public class SumOfTwoMinimum {

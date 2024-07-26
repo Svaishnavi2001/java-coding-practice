@@ -1,4 +1,4 @@
-package com.Arrays2;
+package com.imp_programs;
 
 public class SumOfThreeMaximums {
     public static void main(String[] args) {

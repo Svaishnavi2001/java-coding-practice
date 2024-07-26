@@ -1,17 +1,12 @@
-package com.Arrays2;
+package com.imp_programs;
 import java.util.Scanner;
 // Minimum product pair of an Array.
 
 public class MinimumProductPair {
     public static void main(String[] args) {
-        Scanner scan=new Scanner(System.in);
-        int size=scan.nextInt();
-        int []ar=new int[size];
 
-        for(int i=0;i<ar.length;i++){
-            ar[i]=scan.nextInt();
-        }
-          minProduct(ar);
+        int []ar={3,5,2,4,7};
+        minProduct(ar);
     }
      static int firstMaximumEle(int []ar){
         int max=Integer.MIN_VALUE;
@@ -68,19 +63,22 @@ public class MinimumProductPair {
         int smax=secMaximumEle(ar);
         int smin=secMinimumEle(ar);
 
-        int p1=fmin*smin;
-        int p2=fmax*smax;
-        int p3=fmin*fmax;
+       // int p1=fmin*smin;
+        int p1=fmax*smax;
+        //int p2=fmax*smax;
+        int p2=fmin*smin;
+        //int p3=fmin*fmax;
+        int p3=fmax*smax;
 
-        int min=0;
-        if(p1<p2){
-            min=p1;
+        int max=0;
+        if(p1>p2){
+            max=p1;
         }
         else {
-            min=p2;
+            max=p2;
         }
-        if(min<p3){
-            System.out.println(min);
+        if(max>p3){
+            System.out.println(max);
         }
         else{
             System.out.println(p3);

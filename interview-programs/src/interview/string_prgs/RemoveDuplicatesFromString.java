@@ -12,14 +12,14 @@ public class RemoveDuplicatesFromString {
         String str="Banana";
         char[] charArray=str.toCharArray();
 
-        Set<Character> removeDuplicates=new LinkedHashSet<Character>();
+        Set<Character> set=new LinkedHashSet<Character>();
         for(char ch: charArray){
-            removeDuplicates.add(ch);
+            set.add(ch);
         }
         StringBuilder sb=new StringBuilder();
-        for(char ch: removeDuplicates){
+        for(char ch: set){
             sb.append(ch);
         }
-        System.out.println(sb.toString());
+        System.out.println(sb);
     }
 }

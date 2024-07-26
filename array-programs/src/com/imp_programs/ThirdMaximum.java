@@ -1,4 +1,4 @@
-package com.Arrays1;
+package com.imp_programs;
 
 public class ThirdMaximum {
     public static void main(String[] args) {

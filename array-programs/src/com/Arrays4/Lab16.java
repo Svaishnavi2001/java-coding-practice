@@ -15,8 +15,8 @@ public class Lab16{
         moveAllZeros(ar);
     }
     private static void moveAllZeros(int[] ar) {
-        int i=ar.length-1;
-        int j=ar.length-1;
+        int i=0;
+        int j=0;
         while(i<ar.length){
             if(ar[i]==0){
                 i++;

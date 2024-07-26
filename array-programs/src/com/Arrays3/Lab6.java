@@ -21,22 +21,26 @@ public class Lab6{
         int []res=new int[ar1.length+ar2.length];
 
         while(i<ar1.length && j<ar2.length){
-            if(ar2[j]<=ar1[i]){
+            if(ar1[i]>=ar2[j]){
                 res[k]=ar2[j];
-                k++;j++;
+                j++;
+                k++;
             }
             else{
                 res[k]=ar1[i];
-                k++;i++;
+                i++;
+                k++;
             }
         }
         while(i<ar1.length){
             res[k]=ar1[i];
-            k++;i++;
+            i++;
+            k++;
         }
         while(j<ar2.length){
             res[k]=ar2[j];
-            k++;j++;
+            j++;
+            k++;
         }
         for(int l=0;l<res.length;l++){
             System.out.print(res[l]+" ");

@@ -7,18 +7,20 @@ public class CountDuplicteCharacters {
     public static void main(String[] args) {
 
         String str="vaishnavi";
+        char[] charArray=str.toCharArray();
 
-        char[] ch=str.toCharArray();
-        Set<Character> characterSet = new HashSet<>();
-        for(char character:ch){
-           characterSet.add(character);
+        int count=1;
+        for(int i=0;i< charArray.length-1;i++){
+            if(charArray[i]==charArray[i+1]){
+                count++;
+            }
+            else{
+                if(count==2){
+                    System.out.println(charArray[i]+" ");
+                }
+                count=1;
+            }
         }
-        System.out.println(characterSet);
-
-        String result= "";
-        for( char c: characterSet){
-            result = result + c;
-        }
-        System.out.println(result);
+        System.out.println(charArray[charArray.length-1]+" ");
     }
 }

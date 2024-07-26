@@ -8,12 +8,9 @@ public class Anagram {
         String str1="listen";
         String str2="silent";
 
-        if(anagramOfStrings(str1,str2)){
-            System.out.print(str1+" "+"and"+" "+str2+" "+"are anagrams");
-        }
-        else{
-            System.out.print(str1+" "+"and"+" "+str2+" "+"are not anagrams");
-        }
+        boolean res=anagramOfStrings(str1,str2);
+        System.out.println(res);
+
     }
     private static boolean anagramOfStrings(String str1, String str2) {
 

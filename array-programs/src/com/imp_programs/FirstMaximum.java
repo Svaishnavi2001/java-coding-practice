@@ -1,4 +1,4 @@
-package com.Arrays1;
+package com.imp_programs;
 
 // Largest element of an Array.
 public class FirstMaximum {

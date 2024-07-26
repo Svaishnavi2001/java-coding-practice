@@ -1,4 +1,4 @@
-package com.Arrays1;
+package com.imp_programs;
 
 public class InsertElement {
     public static void main(String[] args) {
@@ -30,7 +30,7 @@ public class InsertElement {
             newArray[i+1]=ar[i];
         }
         // modified array
-        for(int i=0;i<ar.length;i++) {
+        for(int i=0;i<newArray.length;i++) {
             System.out.print(newArray[i]+" ");
         }
     }
