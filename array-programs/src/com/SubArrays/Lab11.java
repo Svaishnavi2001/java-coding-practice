@@ -1,4 +1,4 @@
-package com.Arrays4;
+package com.SubArrays;
 import java.util.Scanner;
 // Print the count of subArrays of given size, whose sum is equal to k.
 public class Lab11 {

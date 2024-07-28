@@ -40,11 +40,11 @@ public class SumOfThreeMaximums {
                vp=p;
                p=ar[i];
            }
-           else if(ar[i]>vp){
+           else if(ar[i]>vp && ar[i]!=p){
                m=vp;
                vp=ar[i];
            }
-           else if(ar[i]>m ){
+           else if(ar[i]>m && ar[i]!=vp&& ar[i]!=p){
                m=ar[i];
            }
        }

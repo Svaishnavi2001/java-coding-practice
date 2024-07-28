@@ -1,4 +1,4 @@
-package interview;
+package interview.string_prgs;
 
 public class RemoveWhiteSpaces {
     public static void main(String[] args) {

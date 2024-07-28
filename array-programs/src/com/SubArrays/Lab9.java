@@ -1,4 +1,4 @@
-package com.Arrays4;
+package com.SubArrays;
 import java.util.Scanner;
 //Given an Array of size N,print all subArrays of an Array.
 public class Lab9 {

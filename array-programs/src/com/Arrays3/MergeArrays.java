@@ -1,7 +1,7 @@
 package com.Arrays3;
 import java.util.Scanner;
 // Merging of 2 sorted Arrays.
-public class Lab6{
+public class MergeArrays {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int size1=scan.nextInt();

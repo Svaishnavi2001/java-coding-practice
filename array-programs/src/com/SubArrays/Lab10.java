@@ -1,4 +1,4 @@
-package com.Arrays4;
+package com.SubArrays;
 import java.util.Scanner;
 // Print sum of all subArrays of a given Array.
 public class Lab10 {

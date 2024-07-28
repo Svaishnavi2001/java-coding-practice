@@ -1,4 +1,4 @@
-package com.Arrays4;
+package com.SubArrays;
 import java.util.Scanner;
 //  10
 //  2 0 3 0 4 0 5 6 0 0

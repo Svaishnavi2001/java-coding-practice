@@ -1,4 +1,4 @@
-package com.Arrays4;
+package com.Arrays3;
 import java.util.Scanner;
 // Given 2 Arrays print repeating element.
 public class Lab8 {

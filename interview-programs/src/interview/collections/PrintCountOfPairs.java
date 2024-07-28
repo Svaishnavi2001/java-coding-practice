@@ -11,22 +11,21 @@ public class PrintCountOfPairs {
 
         Map<Integer,Integer> map=new LinkedHashMap<>();
 
-        for(int i=0;i<ar.length;i++){
-            int flag=1;
-            if(map.containsKey(ar[i])){
+        for(int i=0;i<ar.length;i++) {
+            int flag = 1;
+            if (map.containsKey(ar[i])) {
 
-                flag=flag+map.get(ar[i]);
-                map.put(ar[i],flag);
-            }
-            else{
-                map.put(ar[i],1);
+                flag = flag + map.get(ar[i]);
+                map.put(ar[i], flag);
+            } else {
+                map.put(ar[i], 1);
             }
         }
 
-        Set<Map.Entry<Integer,Integer>> entry=map.entrySet();
+        Set<Map.Entry<Integer,Integer>> entries=map.entrySet();
         int sum=0;
-        for(Map.Entry<Integer,Integer> entry1:entry){
-            sum=sum+entry1.getValue()/2;
+        for(Map.Entry<Integer,Integer> entry:entries){
+            sum=sum+entry.getValue()/2;
         }
         System.out.println(sum);
     }

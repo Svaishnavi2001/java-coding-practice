@@ -1,4 +1,4 @@
-package com.Arrays4;
+package com.SubArrays;
 import java.util.Scanner;
 // Print all subArrays that are consecutive
 public class Lab17 {
