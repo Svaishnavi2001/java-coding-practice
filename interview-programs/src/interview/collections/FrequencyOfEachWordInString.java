@@ -12,23 +12,23 @@ public class FrequencyOfEachWordInString {
         String s = "hello world hello";
         String[] str = s.split(" ");
 
-        Map<String, Integer> stringIntegerMap=new LinkedHashMap<>();
+        Map<String, Integer> map=new LinkedHashMap<>();
         for(int i=0;i<str.length;i++){
             int count=1;
-            if(stringIntegerMap.containsKey(str[i])){
+            if(map.containsKey(str[i])){
 
-               count=count+stringIntegerMap.get(str[i]);
+               count=count+map.get(str[i]);
 
-               stringIntegerMap.put(str[i], count);
+                map.put(str[i], count);
             }
             else{
-                stringIntegerMap.put(str[i],1);
+                map.put(str[i],1);
             }
         }
 
-        Set<Map.Entry<String,Integer>> entry=stringIntegerMap.entrySet();
-        for(Map.Entry<String,Integer> stringIntegerEntry:entry){
-            System.out.println(stringIntegerEntry.getKey()+":"+stringIntegerEntry.getValue());
+        Set<Map.Entry<String,Integer>> entries=map.entrySet();
+        for(Map.Entry<String,Integer> entry:entries){
+            System.out.println(entry.getKey()+":"+entry.getValue());
         }
     }
 }

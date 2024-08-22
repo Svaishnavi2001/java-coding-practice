@@ -21,9 +21,9 @@ public class RemoveDuplicatesFromArray {
             }
         }
             temp[j] = arr[arr.length - 1];
-            j++;
 
-        for(int k=0;k<j;k++){
+
+        for(int k=0;k<temp.length;k++){
             System.out.print(temp[k]+" ");
         }
         System.out.println();

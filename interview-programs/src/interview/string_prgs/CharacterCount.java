@@ -26,9 +26,9 @@ public class CharacterCount {
               }
 
         }
-        Set<Map.Entry<Character,Integer>> entry=map.entrySet();
-        for(Map.Entry<Character,Integer> entry1:entry){
-           System.out.println(entry1.getKey()+" "+entry1.getValue()+" ");
+        Set<Map.Entry<Character,Integer>> entries=map.entrySet();
+        for(Map.Entry<Character,Integer> entry:entries){
+           System.out.println(entry.getKey()+" "+entry.getValue()+" ");
        }
     }
 }

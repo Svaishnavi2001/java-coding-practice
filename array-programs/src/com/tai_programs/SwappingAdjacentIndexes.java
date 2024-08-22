@@ -3,14 +3,14 @@ package com.tai_programs;
 public class SwappingAdjacentIndexes {
     public static void main(String[] args) {
 
-        int []ar={1,2,3,4,5,6};
+        int []ar={1,2,3,4};
 
-        //before swapping the indexes
+        System.out.println("Before Swapping:");
         printTheArray(ar);
 
         swapAdjIndexes(ar);
 
-        // after swapping the indexes
+        System.out.println("After Swapping:");
         printTheArray(ar);
     }
 

@@ -36,7 +36,7 @@ public class RemoveElement {
         }
         System.out.println();
         // new array
-        for(int k=0;k<j;k++){
+        for(int k=0;k<newArray.length;k++){
             System.out.print(newArray[k]+" ");
             }
 
