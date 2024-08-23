@@ -9,7 +9,8 @@ public class Lab13 {
     }
     private static void reverseNum(int n) {
         int rev=0;
-        while(n>0){
+
+        while(n!=0){
            int temp=n%10;
            rev=rev*10+temp;
            n=n/10;

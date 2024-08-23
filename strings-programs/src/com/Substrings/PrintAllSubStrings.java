@@ -13,7 +13,7 @@ public class PrintAllSubStrings {
 
     private static void printAllSubstring(String s) {
 
-        for (int size = s.length(); size >=1; size--) {
+        for (int size = 1; size<=s.length(); size++) {
 
             for (int i = 0; i <= s.length() - size; i++) {
                 String t = "";
@@ -22,7 +22,7 @@ public class PrintAllSubStrings {
                 }
                 System.out.println(t);
             }
-            return;
+
         }
     }
 }
