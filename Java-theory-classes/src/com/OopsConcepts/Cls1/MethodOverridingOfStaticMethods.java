@@ -7,8 +7,9 @@ class Parent {
     }
 }
 class Child extends Parent {
-    static void display(){
-        System.out.println("Hello");
+    //@Override
+     static void display(){
+         System.out.println("Hello");
     }
 }
 public class MethodOverridingOfStaticMethods {
