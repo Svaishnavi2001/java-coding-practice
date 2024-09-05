@@ -7,7 +7,6 @@ public class ReversingArray {
         int []ar={1,2,3,4,5,6};
 
         int i=0,j=ar.length-1;
-
         while(i<j){
             int temp=ar[i];
             ar[i]=ar[j];

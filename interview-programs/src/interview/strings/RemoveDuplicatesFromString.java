@@ -8,7 +8,13 @@ public class RemoveDuplicatesFromString {
 
     public static void main(String[] args) {
 
-        String str="Banana";
+        String str = "Banana";
+
+        String res=removeDuplicate(str);
+        System.out.println(res);
+    }
+    private  static String removeDuplicate(String str){
+
         char[] charArray=str.toCharArray();
 
         Set<Character> set=new LinkedHashSet<Character>();
@@ -19,6 +25,6 @@ public class RemoveDuplicatesFromString {
         for(char ch: set){
             sb.append(ch);
         }
-        System.out.println(sb);
+        return sb.toString();
     }
 }

@@ -8,11 +8,9 @@ public class SortingOfString {
         String str="listen";
 
         char[] chars=str.toCharArray();
-
         for(char ch:chars){
             System.out.print(ch+" ");
         }
-
         Arrays.sort(chars);
         System.out.println();
 
@@ -20,8 +18,6 @@ public class SortingOfString {
         for(char ch:chars){
             sb.append(ch);
         }
-
         System.out.println(sb.toString());
-
     }
 }

@@ -29,6 +29,12 @@ public class InsertElement {
         for(int i=position;i<ar.length;i++){
             newArray[i+1]=ar[i];
         }
+
+        // original array
+        for(int i=0;i<ar.length;i++){
+            System.out.print(ar[i]+" ");
+        }
+        System.out.println();
         // modified array
         for(int i=0;i<newArray.length;i++) {
             System.out.print(newArray[i]+" ");

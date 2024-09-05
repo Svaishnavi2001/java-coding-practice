@@ -12,6 +12,7 @@ public class RemoveElement {
 
     private static void removeEle(int[] ar, int n) {
 
+        // count the occurrence of element which is to be removed
         int count=0;
         for(int i=0;i<ar.length;i++){
             if(ar[i]==n){
@@ -35,7 +36,7 @@ public class RemoveElement {
             System.out.print(ar[i]+" ");
         }
         System.out.println();
-        // new array
+        // modified array
         for(int k=0;k<newArray.length;k++){
             System.out.print(newArray[k]+" ");
             }
