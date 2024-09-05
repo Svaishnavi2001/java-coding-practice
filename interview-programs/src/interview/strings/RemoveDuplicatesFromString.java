@@ -1,5 +1,4 @@
 package interview.strings;
-
 // removing duplicate elements from string
 import java.util.LinkedHashSet;
 import java.util.Set;
@@ -16,7 +15,6 @@ public class RemoveDuplicatesFromString {
     private  static String removeDuplicate(String str){
 
         char[] charArray=str.toCharArray();
-
         Set<Character> set=new LinkedHashSet<Character>();
         for(char ch: charArray){
             set.add(ch);

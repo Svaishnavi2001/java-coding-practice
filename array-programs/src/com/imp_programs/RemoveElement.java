@@ -6,10 +6,7 @@ public class RemoveElement {
         int []ar={1,2,3,4,5};
         int n=2;
         removeEle(ar,n);
-
-
     }
-
     private static void removeEle(int[] ar, int n) {
 
         // count the occurrence of element which is to be removed

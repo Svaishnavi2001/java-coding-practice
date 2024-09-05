@@ -1,5 +1,5 @@
 package interview.arrays;
-import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.Set;
 
 public class RemoveDuplicatesFromNonSortedArray {
@@ -14,7 +14,7 @@ public class RemoveDuplicatesFromNonSortedArray {
     }
     private static int[]  removeDuplicates(int ar[]){
 
-        Set<Integer> set=new HashSet<>();
+        Set<Integer> set=new LinkedHashSet<>();
         for(int num:ar){
             set.add(num);
         }
