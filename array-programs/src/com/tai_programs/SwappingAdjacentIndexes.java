@@ -5,12 +5,7 @@ public class SwappingAdjacentIndexes {
 
         int []ar={1,2,3,4};
 
-        System.out.println("Before Swapping:");
-        printTheArray(ar);
-
         swapAdjIndexes(ar);
-
-        System.out.println("After Swapping:");
         printTheArray(ar);
     }
 
