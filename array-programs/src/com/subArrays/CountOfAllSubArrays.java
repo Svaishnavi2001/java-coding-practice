@@ -1,7 +1,7 @@
 package com.subArrays;
 import java.util.Scanner;
 // Print the count of subArrays of given size, whose sum is equal to k.
-public class Lab11 {
+public class CountOfAllSubArrays {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int size = scan.nextInt();
@@ -16,9 +16,9 @@ public class Lab11 {
         countOfSubArrays(ar,size1,k);
     }
     private static void countOfSubArrays(int[] ar,int size1,int k) {
-        int count=0,sum=0;
+        int count=0;
         for (int i = 0; i <= ar.length - size1; i++) {
-            sum = 0;
+            int sum = 0;
             for (int j = i; j < i + size1; j++) {
                 sum=sum+ar[j];
             }

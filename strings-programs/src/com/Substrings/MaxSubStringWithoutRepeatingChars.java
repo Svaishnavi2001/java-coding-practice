@@ -3,7 +3,7 @@ package com.Substrings;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
-public class LargestSubstringWithoutRepeatingChara {
+public class MaxSubStringWithoutRepeatingChars {
     public static void main(String[] args) {
 
         String sts="mississippi";

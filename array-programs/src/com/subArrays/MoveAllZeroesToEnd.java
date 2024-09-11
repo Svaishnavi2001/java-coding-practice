@@ -3,7 +3,7 @@ import java.util.Scanner;
 //  10
 //  2 0 3 0 4 0 5 6 0 0
 //  2 3 4 5 6 0 0 0 0 0
-public class Lab16{
+public class MoveAllZeroesToEnd {
     public static void main(String[] args) {
         Scanner scan=new Scanner(System.in);
         int size=scan.nextInt();

@@ -4,7 +4,7 @@ import java.util.Scanner;
 //  2 -1 4 -1 3 6 -1
 // -1 -1 -1 -1 2 4 3
 // Pull all the -1 to the starting of an Array.
-public class Lab15 {
+public class MoveAllNegativesToBeginning {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int size = scan.nextInt();

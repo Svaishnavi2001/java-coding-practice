@@ -1,7 +1,7 @@
 package com.subArrays;
 import java.util.Scanner;
 // Print all subArrays that are consecutive
-public class Lab17 {
+public class ConsecutiveSubArrays {
     public static void main(String[] args) {
         Scanner scan=new Scanner(System.in);
         int size=scan.nextInt();

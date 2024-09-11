@@ -1,7 +1,7 @@
 package com.subArrays;
 import java.util.Scanner;
 // Print sum of all subArrays of a given Array.
-public class Lab10 {
+public class SumOfAllSubArrays {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int size = scan.nextInt();
@@ -13,13 +13,14 @@ public class Lab10 {
         printSumOfSubArrays(ar, size1);
     }
     private static void printSumOfSubArrays(int[] ar, int size1) {
-        int sum=0;
+
         for (int i = 0; i <= ar.length - size1; i++) {
-            sum=0;
+           int sum=0;
             for (int j = i; j < i + size1; j++) {
                 sum = sum + ar[j];
             }
-         }
             System.out.println(sum);
+         }
+
         }
     }

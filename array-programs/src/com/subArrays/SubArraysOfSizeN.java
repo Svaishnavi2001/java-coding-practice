@@ -1,7 +1,7 @@
 package com.subArrays;
 import java.util.Scanner;
 //Given an Array of size N,print all subArrays of an Array.
-public class Lab9 {
+public class SubArraysOfSizeN {
     public static void main(String[] args) {
         Scanner scan=new Scanner(System.in);
         int size=scan.nextInt();
@@ -13,6 +13,7 @@ public class Lab9 {
         printSubArrays(ar,size1);
     }
     private static void printSubArrays(int[] ar, int size1) {
+
         for(int i=0;i<=ar.length-size1;i++){
             for(int j=i;j<i+size1;j++){
                 System.out.print(ar[j]+" ");

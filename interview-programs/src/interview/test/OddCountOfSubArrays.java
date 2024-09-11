@@ -4,9 +4,8 @@ public class OddCountOfSubArrays {
     public static void main(String[] args) {
 
         int[] ar = {1, 1, 1, 2, 3};
-
         int k=3;
-       int x= countOddSubArrays(ar,k);
+        int x= countOddSubArrays(ar,k);
         System.out.println(x);
     }
 
