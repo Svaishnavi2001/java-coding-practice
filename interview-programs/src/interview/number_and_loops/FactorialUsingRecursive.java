@@ -7,7 +7,8 @@ public class FactorialUsingRecursive {
         long res=factorial(n);
         System.out.println(res);
     }
-    private static long factorial(int n) {
+
+    private static long  factorial(int n) {
         if(n<=1){
             return 1;
         }
