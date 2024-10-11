@@ -1,7 +1,7 @@
 package interview.arrays;
 
 public class BubbleSort {
-    public static void main(String[] args) {
+     public static void main(String[] args) {
 
         int[] ar={64,34,25,12,22,11,90};
 
