@@ -1,5 +1,5 @@
 package interview.arrays;
-
+// Union of 2 Arrays(non duplicate elements)
 import java.util.LinkedHashSet;
 import java.util.Set;
 
@@ -17,13 +17,13 @@ public class UnionOfTwoArrays {
         for(int num: ar2){
             set.add(num);
         }
-        System.out.println(set);
 
         int []temp=new int[set.size()];
-        int k=0;
+        int j=0;
+
         for(int num:set) {
-            temp[k] = num;
-            k++;
+            temp[j] = num;
+            j++;
         }
 
         for (int i=0;i<temp.length;i++){

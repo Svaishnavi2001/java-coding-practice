@@ -2,7 +2,7 @@ package interview.collections_comparator;
 import java.util.*;
 
 /*Problem
-Given a list of students along with their company name, role, and salary package,
+Given a list of students along with their name, company name and salary package,
 sort them based on the following criteria:
   (1) Sort primarily by company name in alphabetical order,
   (2) If multiple students are placed in the same company, sort by name alphabetically,
@@ -88,7 +88,7 @@ public class StudentSorting {
         }
             Collections.sort(list, new StudentComparator());
             for (Student student : list) {
-                System.out.println(student.name + " " + student.company + " " + student.salary);
+                System.out.println(student.name + "," + student.company + "," + student.salary);
             }
            sc.close();
         }

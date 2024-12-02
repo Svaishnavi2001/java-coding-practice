@@ -1,19 +1,14 @@
 package com.arrays1;
-import java.util.Scanner;
+
 // Merging of 2 sorted Arrays.
-public class MergeArrays {
+
+public class Merge2Arrays1 {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        int size1=scan.nextInt();
-        int[] ar1=new int[size1];
-        for(int i=0;i<ar1.length;i++) {
-            ar1[i] = scan.nextInt();
-        }
-        int size2=scan.nextInt();
-        int []ar2=new int [size2];
-        for(int j=0;j<ar2.length;j++){
-            ar2[j]=scan.nextInt();
-        }
+
+        int ar1[]={3,5,7,9,13};
+        int ar2[]={1,2,3,4,9,15,17,19};
+        //res[k]={1,2,3,3,4,5,7,9,9,13,15,17,19};
+
         mergeArrays(ar1,ar2);
     }
     private static void mergeArrays(int[] ar1, int[] ar2) {

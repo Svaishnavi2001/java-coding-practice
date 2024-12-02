@@ -4,18 +4,18 @@ import java.util.Scanner;
 public class SubArraysOfSizeN {
     public static void main(String[] args) {
         Scanner scan=new Scanner(System.in);
-        int size=scan.nextInt();
-        int []ar=new int[size];
+        int s=scan.nextInt();
+        int []ar=new int[s];
         for(int i=0;i<ar.length;i++){
             ar[i]=scan.nextInt();
         }
-        int size1=scan.nextInt();
-        printSubArrays(ar,size1);
+        int s1=scan.nextInt();
+        printSubArrays(ar,s1);
     }
-    private static void printSubArrays(int[] ar, int size1) {
+    private static void printSubArrays(int[] ar, int s1) {
 
-        for(int i=0;i<=ar.length-size1;i++){
-            for(int j=i;j<i+size1;j++){
+        for(int i=0;i<=ar.length-s1;i++){
+            for(int j=i;j<i+s1;j++){
                 System.out.print(ar[j]+" ");
             }
             System.out.println();

@@ -34,19 +34,19 @@ Sample Output 1
 103, Clark, 30000
 */
 
-public class Customer {
+class Customer {
     int customerId;
     String customerName;
     int totalProducts;
-    double totalPrice;
+    int totalPrice;
 
     public Customer(int customerId,String customerName) {
         this.customerId = customerId;
         this.customerName = customerName;
         this.totalProducts = 0;
-        this.totalPrice = 0.0;
+        this.totalPrice = 0;
     }
-    public void addPurchase(double price){
+    public void addPurchase(int price){
             totalProducts++;
             totalPrice=totalPrice+price;
     }
@@ -62,7 +62,7 @@ class CustomerComparator implements Comparator<Customer> {
         return productCountComparison;
     }
 }
-class CustomerSorting{
+public class CustomerSorting{
     public static void main(String[] args) {
 
         Scanner sc=new Scanner(System.in);
@@ -81,7 +81,7 @@ class CustomerSorting{
             }
             int customerId= Integer.parseInt(strings[0].trim());
             String customerName=strings[1].trim();
-            double productPrice=Double.parseDouble(strings[3].trim());
+            int productPrice=Integer.parseInt(strings[3].trim());
 
             Customer customer = map.get(customerId);
             if(customer==null){
@@ -96,7 +96,7 @@ class CustomerSorting{
         Collections.sort(list, new CustomerComparator());
 
         for(Customer customer: list){
-            System.out.println(customer.customerId+" "+customer.customerName+" "+customer.totalPrice);
+            System.out.println(customer.customerId+","+customer.customerName+","+customer.totalPrice);
         }
         sc.close();
     }

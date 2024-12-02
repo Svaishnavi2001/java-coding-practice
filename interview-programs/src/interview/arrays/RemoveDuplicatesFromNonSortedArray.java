@@ -5,17 +5,11 @@ import java.util.Set;
 public class RemoveDuplicatesFromNonSortedArray {
     public static void main(String[] args) {
 
-        int ar[]={1,2,3,3,4,5,4,4,6,7,6};
+        int ar[]={1,2,3,4,3,3,2,5,6,7,6,8,9};
 
-        int res[]=removeDuplicates(ar);
-        for(int i=0;i<res.length;i++){
-            System.out.print(res[i]+" ");
-        }
-    }
-    private static int[]  removeDuplicates(int ar[]){
+        Set<Integer> set = new LinkedHashSet<>();
 
-        Set<Integer> set=new LinkedHashSet<>();
-        for(int num:ar){
+        for(int num:ar) {
             set.add(num);
         }
 
@@ -26,7 +20,10 @@ public class RemoveDuplicatesFromNonSortedArray {
             temp[j]=num;
             j++;
         }
+        for(int i=0;i<temp.length;i++){
+            System.out.print(temp[i]+" ");
+        }
 
-        return temp;
+
     }
 }

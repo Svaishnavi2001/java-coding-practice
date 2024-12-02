@@ -27,7 +27,7 @@ public class Anagram {
             return false;
         }
         char []charArray1= str1.toCharArray();
-        char [] charArray2=str2.toCharArray();
+        char []charArray2= str2.toCharArray();
 
         Arrays.sort(charArray1);
         Arrays.sort(charArray2);
