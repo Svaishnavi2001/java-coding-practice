@@ -6,25 +6,25 @@ public class PrintString {
         String str="world";
         char []chars=str.toCharArray();
 
-        StringBuilder newString=new StringBuilder();
+        StringBuilder sb=new StringBuilder();
 
         for(int i=0;i<chars.length;i++){
             if(chars[i]=='o'){
-                newString.append("oo");
+                sb.append("oo");
             }
             else if(chars[i]=='r'){
-                newString.append("rrr");
+                sb.append("rrr");
             }
             else if(chars[i]=='l'){
-                newString.append("llll");
+                sb.append("llll");
             }
             else if(chars[i]=='d'){
-                newString.append("ddddd");
+                sb.append("ddddd");
             }
             else{
-                newString.append(chars[i]);
+                sb.append(chars[i]);
             }
         }
-        System.out.println(newString.toString());
+        System.out.println(sb.toString());
     }
 }

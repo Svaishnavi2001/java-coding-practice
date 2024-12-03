@@ -9,10 +9,10 @@ public class Pangram {
 
         boolean isPangram=pangramCheck(s);
         if(isPangram){
-            System.out.println("pangram");
+            System.out.println("pangrams");
         }
         else{
-            System.out.println("not pangram");
+            System.out.println("not pangrams");
         }
     }
     private static  boolean pangramCheck(String s){

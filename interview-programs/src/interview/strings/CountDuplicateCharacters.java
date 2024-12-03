@@ -3,7 +3,7 @@ package interview.strings;
 public class CountDuplicateCharacters {
     public static void main(String[] args) {
 
-        String str="vaishnavi";
+        String str="mississippi";
         char[] charArray=str.toCharArray();
 
         int count=1;
