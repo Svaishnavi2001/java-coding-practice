@@ -12,11 +12,11 @@ public class StringReverse {
         System.out.println(rev);
 
         // using stringBuilder class
-        String str ="this is javaTPoint";
+        String str = "this is javaTPoint";
         StringBuilder sb = new StringBuilder(str);
         sb.reverse();
-        String rev1 = sb.toString();
-        System.out.println(rev1);
+        String revStr=sb.toString();
+        System.out.println(revStr);
 
     }
 }
