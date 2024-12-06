@@ -25,6 +25,7 @@ public class PrintString {
                 sb.append(chars[i]);
             }
         }
-        System.out.println(sb.toString());
+        String res=sb.toString();
+        System.out.println(res);
     }
 }
