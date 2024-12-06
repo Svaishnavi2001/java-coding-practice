@@ -1,5 +1,7 @@
 package interview.important_ques;
 
+import java.util.Scanner;
+
 class Circle{
 
     private double radius;
@@ -14,7 +16,12 @@ class Circle{
 }
 public class AreaOfCircle {
     public static void main(String[] args) {
-        Circle circle = new Circle(2.2d);
+        Scanner sc = new Scanner(System.in);
+
+        double radius=sc.nextDouble();
+
+        Circle circle = new Circle(radius);
+
         double area= circle.area();
         System.out.println(area);
 

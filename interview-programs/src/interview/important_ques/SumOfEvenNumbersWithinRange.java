@@ -1,11 +1,14 @@
 package interview.important_ques;
 
+import java.util.Scanner;
+
 public class SumOfEvenNumbersWithinRange {
 
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
-        int start=1;
-        int end=10;
+        int start=sc.nextInt();
+        int end=sc.nextInt();
 
         int sum=0;
         for(int i=start;i<=end;i++){

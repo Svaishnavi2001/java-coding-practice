@@ -2,7 +2,7 @@ package interview.important_ques;
 
 import java.util.Scanner;
 
-public class SingleIteration {
+public class LargeAndSmallInSingleIteration {
 
     public static void main(String[] args){
 

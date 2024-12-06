@@ -1,6 +1,6 @@
 package interview.important_ques;
 
-public class PrintString {
+public class DoubleCharUsingForLoop {
 
     public static void main(String[] args) {
 

@@ -2,7 +2,10 @@ package interview.important_ques;
 
 public class DoubleCharacters {
     public static void main(String[] args){
-         String s = "hello";
+
+
+        String s = "hello";
+
         String res= twiceCharacters(s);
         System.out.println(res);
 
