@@ -17,19 +17,17 @@ public class Merge3Arrays {
         while(k<res.length){
             if(i<ar1.length){
                 res[k]=ar1[i];
-                i++;
                 k++;
             }
             if(i<ar2.length){
                 res[k]=ar2[i];
-                i++;
                 k++;
             }
             if(i<ar3.length){
                 res[k]=ar3[i];
-                i++;
                 k++;
             }
+            i++;
 
         }
         for(int j=0;j<res.length;j++){

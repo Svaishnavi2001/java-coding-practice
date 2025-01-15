@@ -11,10 +11,11 @@ public class Lab19 {
             ar[i] = scan.nextInt();
         }
         maxNumIndex(ar);
+
     }
     private static void maxNumIndex(int[] ar) {
-        int max=Integer.MIN_VALUE;
-        int index=0;
+        int max = Integer.MIN_VALUE;
+        int index = 0;
         for (int i = 0; i < ar.length; i++) {
             if (ar[i] > max) {
                 max = ar[i];

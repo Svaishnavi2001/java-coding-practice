@@ -10,7 +10,7 @@ public class Lab7a {
         printPrimeNumbers(n1,n2);
     }
     private static void printPrimeNumbers(int n1, int n2) {
-        for(int i=n1;i<=n2;i++){
+        for(int i=n1;i<=                         n2;i++){
             if(isPrime(i)==true){
                 System.out.print(i+" ");
             }

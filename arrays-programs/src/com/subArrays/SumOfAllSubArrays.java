@@ -4,20 +4,20 @@ import java.util.Scanner;
 public class SumOfAllSubArrays {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        int s = scan.nextInt();
-        int[] ar = new int[s];
+        int n = scan.nextInt();
+        int[] ar = new int[n];
         for (int i = 0; i < ar.length; i++) {
             ar[i] = scan.nextInt();
         }
-        int s1 = scan.nextInt();
-        printSumOfSubArrays(ar, s1);
+        int s = scan.nextInt();
+        printSumOfSubArrays(ar, s);
     }
-    private static void printSumOfSubArrays(int[] ar, int s1) {
+    private static void printSumOfSubArrays(int[] ar, int s) {
 
 
-        for (int i = 0; i <= ar.length - s1; i++) {
+        for (int i = 0; i <= ar.length - s; i++) {
            int sum=0;
-            for (int j = i; j < i + s1; j++) {
+            for (int j = i; j < i + s; j++) {
                 sum = sum + ar[j];
             }
             System.out.println(sum);
