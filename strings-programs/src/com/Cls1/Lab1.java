@@ -10,7 +10,7 @@ public class Lab1 {
         System.out.println(rev);
     }
     private static String reverse(String s){
-        String rev="";
+        String rev="5";
         for(int i=s.length()-1;i>=0;i--){
             rev=rev+s.charAt(i);
         }
