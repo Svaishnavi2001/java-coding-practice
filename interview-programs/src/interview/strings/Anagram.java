@@ -1,6 +1,6 @@
 package interview.strings;
 import java.util.Arrays;
-
+// Using in-built methods
 public class Anagram {
     public static void main(String[] args) {
 

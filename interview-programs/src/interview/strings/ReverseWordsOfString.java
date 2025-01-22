@@ -7,10 +7,11 @@ public class ReverseWordsOfString {
         reverseWords(s);
     }
     private static void reverseWords(String s) {
-        String []words=s.split(" ");
+        String []str=s.split(" ");
         String t="";
-        for(String word: words){
-           t=t+reverseWord(word)+" ";
+        for(int i=0;i<str.length;i++){ // o/p= aidnI si ym yrtnuoc
+            //for(int i=str.length-1;i>=0;i--){  o/p= yrtnuoc ym si aidnI
+            t=t+reverseWord(str[i])+" ";
         }
         System.out.println(t);
     }
