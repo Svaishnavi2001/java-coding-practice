@@ -1,4 +1,4 @@
-package interview.test;
+package interview.subArrays;
 
 public class OddCountOfSubArrays {
     public static void main(String[] args) {

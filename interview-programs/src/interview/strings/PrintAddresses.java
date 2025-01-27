@@ -1,4 +1,4 @@
-package interview.test;
+package interview.strings;
 
 import java.util.*;
 

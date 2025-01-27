@@ -1,4 +1,4 @@
-package interview.important_ques;
+package interview.number_and_loops;
 
 import java.util.Scanner;
 

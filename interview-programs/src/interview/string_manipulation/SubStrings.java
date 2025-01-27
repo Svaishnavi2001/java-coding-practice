@@ -1,4 +1,4 @@
-package interview.important_ques;
+package interview.string_manipulation;
 
 public class SubStrings {
     public static void main(String[] args) {
