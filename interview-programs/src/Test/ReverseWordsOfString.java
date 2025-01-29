@@ -1,4 +1,4 @@
-package interview.strings;
+package Test;
 
 public class ReverseWordsOfString {
     public static void main(String[] args) {

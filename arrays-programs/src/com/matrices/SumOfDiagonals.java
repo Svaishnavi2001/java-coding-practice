@@ -9,7 +9,7 @@ public class SumOfDiagonals {
         for(int i=0;i<ar.length;i++){
            sum=sum+ar[i][i];
         }
-        System.out.println(sum);
+        //.out.println(sum);
 
         // sum of sec diagonals
         for(int i=0,j=ar.length-1;i<ar.length;i++,j--){

@@ -18,7 +18,7 @@ public class Demo {
             for(int j=0;j<ar1[i].length;j++){
                 System.out.print(ar1[i][j]+" ");
             }
-            System.out.println("");
+            System.out.println();
         }
     }
 }
