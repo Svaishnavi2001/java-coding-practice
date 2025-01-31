@@ -1,4 +1,4 @@
-package interview.strings;
+package interview.string_programs;
 // searching a  specific character from a string
 public class SearchCharacterFromString {
     public static void main(String[] args) {

@@ -1,8 +1,8 @@
-package interview.strings;
+package interview.string_manipulation;
 
 import java.util.*;
 
-public class PrintAddresses {
+public class PrintTheAddress {
     public static void main(String[] args) {
 
         String s="laxmi@gmail.com,sneha@gmail.com,vaishnavi@gmail.com";

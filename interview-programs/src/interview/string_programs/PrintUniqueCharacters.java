@@ -1,4 +1,4 @@
-package interview.strings;
+package interview.string_programs;
 
 public class PrintUniqueCharacters {
     public static void main(String[] args) {

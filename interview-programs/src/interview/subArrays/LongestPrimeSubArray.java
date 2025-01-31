@@ -1,4 +1,4 @@
-package Test;
+package interview.subArrays;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package interview.strings;
+package interview.string_programs;
 // smallestword and largestword of string
 public class SmallestWordOfString {
 

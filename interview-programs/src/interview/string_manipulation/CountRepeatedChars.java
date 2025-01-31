@@ -1,10 +1,12 @@
-package Test;
+package interview.string_manipulation;
 
-public class Test1 {
+/* i/p- aabbcccdd
+   o/p- a2b2c3d2
+*/
+public class CountRepeatedChars {
     public static void main(String[] args) {
 
         String s = "aabbcccdd";
-
         StringBuilder sb=new StringBuilder();
         int count=1;
         for(int i=0;i<s.length()-1;i++){

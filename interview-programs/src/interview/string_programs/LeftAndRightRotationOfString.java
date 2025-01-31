@@ -1,4 +1,4 @@
-package interview.strings;
+package interview.string_programs;
 
 public class LeftAndRightRotationOfString {
     public static void main(String[] args) {

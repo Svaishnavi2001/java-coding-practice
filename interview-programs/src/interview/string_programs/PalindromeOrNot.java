@@ -1,4 +1,4 @@
-package Test;
+package interview.string_programs;
 // Palindrome or not
 public class PalindromeOrNot {
 

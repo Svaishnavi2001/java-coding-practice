@@ -1,4 +1,4 @@
-package interview.strings;
+package interview.string_programs;
 // removing duplicate elements from string
 import java.util.LinkedHashSet;
 import java.util.Set;

@@ -1,4 +1,4 @@
-package interview.strings;
+package interview.string_programs;
 
 import java.util.Arrays;
 

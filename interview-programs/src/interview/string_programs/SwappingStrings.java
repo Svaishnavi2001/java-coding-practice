@@ -1,4 +1,4 @@
-package interview.strings;
+package interview.string_programs;
 import java.util.Scanner;
 // How To Swap Two String Variables Without Using Third OR Temp Variable In Java?
 

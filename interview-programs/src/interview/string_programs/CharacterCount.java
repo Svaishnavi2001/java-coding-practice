@@ -1,4 +1,4 @@
-package Test;
+package interview.string_programs;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package interview.strings;
+package interview.string_programs;
 // lowercase to uppercase
 public class LowerToUppercase {
     public static void main(String[] args) {

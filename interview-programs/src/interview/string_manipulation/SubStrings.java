@@ -1,5 +1,10 @@
 package interview.string_manipulation;
-
+/* i/p- Abcdefghijk
+   o/p- abc
+        def
+        ghi
+        jk
+*/
 public class SubStrings {
     public static void main(String[] args) {
 

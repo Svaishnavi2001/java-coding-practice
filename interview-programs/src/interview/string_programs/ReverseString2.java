@@ -1,9 +1,9 @@
-package interview.strings;
+package interview.string_programs;
 
-public class ReverseStrings {
+public class ReverseString2 {
     public static void main(String[] args) {
 
-        String s = "Tap academy";
+        String s = "Tap academy"; //(o/p - Academy Tap)
         reverseStrings(s);
     }
 

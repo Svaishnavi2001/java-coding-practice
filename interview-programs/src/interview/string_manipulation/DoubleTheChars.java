@@ -1,6 +1,9 @@
-package com.string_manipulation_prgs;
+package interview.string_manipulation;
 
-public class PrintString {
+/* i/p- world
+   o/p- woorrrllllddddd
+*/
+public class DoubleTheChars {
     public static void main(String[] args) {
 
         String str="world";

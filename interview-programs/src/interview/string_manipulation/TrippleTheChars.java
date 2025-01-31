@@ -1,5 +1,10 @@
 package interview.string_manipulation;
-
+/*
+     i/p- WORLD
+     o/p- WWW
+          RRR
+          DDD
+ */
 public class TrippleTheChars {
     public static void main(String[] args){
 

@@ -1,4 +1,4 @@
-package interview.strings;
+package interview.string_programs;
 // count occurrence of a  specific character in a string
 public class CountSpecificCharFromStr {
     public static void main(String[] args) {

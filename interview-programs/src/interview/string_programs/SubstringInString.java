@@ -1,4 +1,4 @@
-package interview.strings;
+package interview.string_programs;
 // check whether substring is present in a given string
 public class SubstringInString {
     public static void main(String[] args) {
