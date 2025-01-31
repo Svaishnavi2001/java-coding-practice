@@ -1,18 +1,22 @@
 package interview.string_programs;
+/*
+      i/p- Tap Academy
+      o/p- Academy Tap
 
+ */
 public class ReverseString2 {
     public static void main(String[] args) {
 
-        String s = "Tap academy"; //(o/p - Academy Tap)
+        String s = "Tap academy";
         reverseStrings(s);
     }
 
     private static void reverseStrings(String s) {
 
-        String []str = s.split(" ");
+        String []words = s.split(" ");
         StringBuilder sb= new StringBuilder();
-        for(int i=str.length-1;i>=0;i--){
-            sb.append(str[i]);
+        for(int i=words.length-1;i>=0;i--){
+            sb.append(words[i]);
             if(i!=0){
                 sb.append(" ");
             }
