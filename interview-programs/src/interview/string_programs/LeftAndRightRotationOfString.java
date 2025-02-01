@@ -12,7 +12,7 @@ public class LeftAndRightRotationOfString {
         String rightRotated=rotateRight(s,positions);
         System.out.println(rightRotated);
     }
-    private static String  rotateLeft(String s, int positions){
+    private static String rotateLeft(String s, int positions){
 
         int n=s.length();
         positions=positions%n;
@@ -20,7 +20,7 @@ public class LeftAndRightRotationOfString {
         return s.substring(positions)+s.substring(0,positions);
 
     }
-    private static String  rotateRight(String s, int positions){
+    private static String rotateRight(String s, int positions){
 
         int n=s.length();
         positions=positions%n;

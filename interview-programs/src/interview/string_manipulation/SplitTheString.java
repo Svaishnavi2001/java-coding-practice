@@ -5,7 +5,7 @@ package interview.string_manipulation;
         ghi
         jk
 */
-public class SubStrings {
+public class SplitTheString {
     public static void main(String[] args) {
 
         String s = "Abcdefghijk";
