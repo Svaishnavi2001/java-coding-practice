@@ -57,16 +57,16 @@ public class StringTestCases {
     //Replace all 2 vowels with the next vowels
     private static String replaceAllVowelsWithNextVowels(String word) {
         char []vowels= {'a','e','i','o','u'};
-        StringBuilder stringBuilder = new StringBuilder(word);
+        StringBuilder sb = new StringBuilder(word);
 
         for(int i=0;i<word.length();i++){
             char ch=word.charAt(i);
             if(isVowel(ch)){
-                stringBuilder.setCharAt(i, getNextVowel(ch, vowels));
+                sb.setCharAt(i, getNextVowel(ch, vowels));
 
             }
         }
-        return  stringBuilder.toString();
+        return  sb.toString();
     }
 
     //Replace all 3 vowels with the previous consonants
