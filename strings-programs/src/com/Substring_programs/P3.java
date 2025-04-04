@@ -1,6 +1,6 @@
 package com.Substring_programs;
 
-//Check whether a sunString is  present in a given String
+//Check whether a subString is  present in a given String
 
 import java.util.Scanner;
 
