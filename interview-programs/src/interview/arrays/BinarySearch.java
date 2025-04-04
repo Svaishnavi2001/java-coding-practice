@@ -13,15 +13,15 @@ public class BinarySearch {
     private static int binarySearching(int[] ar,int target) {
 
         int l=0;
-        int h=ar.length-1;
+        int r=ar.length-1;
 
-        while(l<=h){
-            int mid=l+(h-l)/2;
+        while(l<=r){
+            int mid=l+(r-l)/2;
             if(ar[mid]==target){
                 return mid;
             }
             if(ar[mid]>target){
-                h=mid-1;
+                r=mid-1;
             }
             else{
                 l=mid+1;
