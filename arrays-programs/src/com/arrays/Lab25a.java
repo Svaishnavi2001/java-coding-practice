@@ -15,15 +15,14 @@ public class Lab25a {
         printPairs(ar,k);
 }
     private static void printPairs(int[] ar, int k) {
-       // int count=0;
+       
         for(int i=0;i<ar.length-1;i++){
             for(int j=i+1;j<ar.length;j++){
                 if(ar[i]-ar[j]==k || ar[j]-ar[i]==k){
                     System.out.println(ar[i]+" "+ar[j]);
-                   // count++;
+                   
                 }
             }
         }
-       // System.out.println(count);
     }
-    }
+}
