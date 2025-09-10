@@ -58,17 +58,21 @@ public class MinimumProductPair {
         return vp;
     }
     private static void minProduct(int[] ar) {
+        
         int fmax=firstMaximumEle(ar);
         int fmin=firstMinimumEle(ar);
         int smax=secMaximumEle(ar);
         int smin=secMinimumEle(ar);
-
-       // int p1=fmin*smin;
+        
+        // for maximum elements product
         int p1=fmax*smax;
-        //int p2=fmax*smax;
         int p2=fmin*smin;
-        //int p3=fmin*fmax;
         int p3=fmax*smax;
+
+        /* for minimum elements product
+        int p1=fmin*smin;
+        int p2=fmax*smax;
+        int p3=fmin*fmax; */
 
         int max=0;
         if(p1>p2){
