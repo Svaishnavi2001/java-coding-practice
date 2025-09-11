@@ -9,7 +9,7 @@ public class SelectionSort {
         for(int i=0;i<ar.length;i++){
             System.out.print(ar[i]+" ");
         }
-        for(int  i=0;i<ar.length;i++){
+        for(int  i=0;i<ar.length-1;i++){
             for(int j=i+1;j<ar.length;j++){
                 if(ar[i]>ar[j]){
                     int temp=ar[i];
